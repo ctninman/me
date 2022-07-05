@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import { useRef } from 'react'
+import NavBar from "./NavBar"
+import About from "./About"
+import Projects from "./Projects"
+import Blog from "./Blog"
+import Skills from "./Skills"
+import Contact from "./Contact"
+import './index.css'
+import Sidebar from "./Sidebar"
 
 function App() {
+  const aboutRef = useRef()
+  const projectRef = useRef()
+  const blogRef = useRef()
+  const skillRef = useRef()
+  const contactRef = useRef()
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <main >
+      <title>Christopher Ninman</title>
+      <NavBar 
+        aboutRef={aboutRef}
+        projectRef={projectRef}
+        blogRef={blogRef}
+        skillRef={skillRef}
+        contactRef={contactRef}
+      />
+      <Sidebar         
+        aboutRef={aboutRef}
+        projectRef={projectRef}
+        blogRef={blogRef}
+        skillRef={skillRef}
+        contactRef={contactRef}
+      />
+      <div className='page-style'>
+        <About aboutRef={aboutRef}/>
+        <Projects projectRef={projectRef}/>
+        <Blog blogRef={blogRef}/>
+        <Skills skillRef={skillRef}/>
+        <Contact contactRef={contactRef}/>
+      </div>
+    </main>
+  )
 }
 
 export default App;
