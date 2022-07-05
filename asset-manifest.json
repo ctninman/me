@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/cninman-portfolio/static/css/main.a47e8c05.css",
+    "main.js": "/cninman-portfolio/static/js/main.820875c5.js",
+    "static/media/World-quiz-world-home.png": "/cninman-portfolio/static/media/World-quiz-world-home.dc0f6c31667c7591bfff.png",
+    "static/media/Portfolio-toplevel-music.png": "/cninman-portfolio/static/media/Portfolio-toplevel-music.ddb9ce244110d8afaf37.png",
+    "static/media/Take-the-kids-out-home.png": "/cninman-portfolio/static/media/Take-the-kids-out-home.c32c063660fef8ff596a.png",
+    "static/media/Portfolio-toplevel-metal.png": "/cninman-portfolio/static/media/Portfolio-toplevel-metal.d089363905a9c40e884b.png",
+    "static/media/Portfolio-background.png": "/cninman-portfolio/static/media/Portfolio-background.ca0c6df04f7ff265aa59.png",
+    "static/media/Curate-ify-home.png": "/cninman-portfolio/static/media/Curate-ify-home.753014d1806f28557841.png",
+    "static/media/Portfolio-toplevel-education.png": "/cninman-portfolio/static/media/Portfolio-toplevel-education.ce3bfac9a97b7986775e.png",
+    "static/media/Times-tables-master-home.png": "/cninman-portfolio/static/media/Times-tables-master-home.34fdb68fd34e4601deb3.png",
+    "static/media/Portfolio-toplevel-volleyball.png": "/cninman-portfolio/static/media/Portfolio-toplevel-volleyball.a60fcbe724de1501472e.png",
+    "static/media/world-quiz-world-logo.png": "/cninman-portfolio/static/media/world-quiz-world-logo.7a9a9b5a04304425e74f.png",
+    "static/media/curate-ify-logo.png": "/cninman-portfolio/static/media/curate-ify-logo.5ed628837f75ab4a6413.png",
+    "static/media/times-tables-master-logo.png": "/cninman-portfolio/static/media/times-tables-master-logo.fc693d1d4e637128fd50.png",
+    "static/media/take-the-kids-out-logo.png": "/cninman-portfolio/static/media/take-the-kids-out-logo.715a4d5e7661cead6556.png",
+    "index.html": "/cninman-portfolio/index.html",
+    "main.a47e8c05.css.map": "/cninman-portfolio/static/css/main.a47e8c05.css.map",
+    "main.820875c5.js.map": "/cninman-portfolio/static/js/main.820875c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a47e8c05.css",
+    "static/js/main.820875c5.js"
+  ]
+}
