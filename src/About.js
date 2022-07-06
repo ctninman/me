@@ -52,6 +52,14 @@ function About({aboutRef}) {
 		left: '0',
 		width: '100%'
 	}
+	const traitStyle = {
+		textShadow: '3px 3px 0px #29274C'
+	}
+	const changingTraitStyle = {
+		fontWeight: 'bold',
+		color: '#F2EE1B',
+		textShadow: '3px 3px 0px #29274C'
+	}
 
 	useEffect (() => {
 		const showTimeout = setTimeout(() => {
@@ -139,16 +147,16 @@ function About({aboutRef}) {
 			<div ref={aboutRef} className='comp-about'>
 				<div className='about-left'>
 					<h2>Hello. I am</h2>
-					<h1>Christopher Ninman</h1>
+					<h1 style={{textAlign: 'center'}}>Christopher Ninman</h1>
 					<h2>I am a</h2>
-					<h2>full-stack developer /</h2>
-					<h2>software engineer /</h2>
-					<h2>{currentTrait.description}</h2>
+					<h2 style={traitStyle}> - full-stack developer /</h2>
+					<h2 style={traitStyle}> - software engineer /</h2>
+					<h2 style={changingTraitStyle}> - {currentTrait.description}</h2>
 					{!pauseSlides 
 							? 
-						<button onClick={handlePauseSlides}>TELL ME MORE</button> 
+						<button className='pause-button' onClick={handlePauseSlides}>TELL ME MORE</button> 
 							:
-						<button onClick={handleContinueSlides}>CONTINUE</button> 
+						<button className='resume-button' onClick={handleContinueSlides}>CONTINUE</button> 
 					}
 				</div>
 				<div className='about-right' style={parentDiv}>
@@ -160,9 +168,9 @@ function About({aboutRef}) {
 			<div className='comp-about' style={{marginTop: '-10px'}}>
 				{pauseSlides
 						?
-					<p>{currentTrait.paragraph}</p>
+					<p style={{backgroundColor: '#F2EE1B'}}>{currentTrait.paragraph}</p>
 						:
-					<p>Career-changing educator with passion and talent for using technology to create inspiring educational material and websites to foster engagement and learning. Dedicated to following all necessary goals first, and then reaching well beyond. Not limited to, but skilled in React, JavaScript, Rails, Ruby, and CSS, and always fascinated to learn other languages and frameworks.  Hard-working, meticulous, and creative, but above all, an empathetic, kind, and collaborative member of his surrounding community.</p>
+					<p>I am a career-changing educator with passion and talent for using technology to create inspiring educational material and websites to foster engagement and learning. My first priority is a dedication to meet all target goals, and then reaching well beyond with creative flair. Not limited to, but skilled in React, JavaScript, Rails, Ruby, and CSS, and always fascinated to learn other languages and frameworks. I am hard-working, meticulous, and creative, but above all, an empathetic, kind, and collaborative member of my surrounding community.</p>
 				}
 			</div>
 		</div>

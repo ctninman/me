@@ -6,7 +6,10 @@ import CurateifyLogo from './images/curate-ify-logo.png'
 import WQWLogo from './images/world-quiz-world-logo.png'
 import TimesLogo from './images/times-tables-master-logo.png'
 import KidsLogo from './images/take-the-kids-out-logo.png'
-
+import CurateifyThumbs from './images/curate-ify-thumbs.png'
+import WQWThumbs from './images/world-quiz-world-thumbs.png'
+import KidsThumbs from './images/times-tables-master-thumbs.png'
+import TimesThumbs from './images/take-the-kids-out-thumbs.png'
 
 export const blogPosts = [
 	{
@@ -75,6 +78,7 @@ export const allProjects = [
 			'Users decide album tags and sort their collection by them',
 			'Match with users based on specific albums in your collection'
 		],
+		thumbs: CurateifyThumbs,
 		story: 'If you build it...',
 		goal: 'React frontend, Rails backend, design complex DB schema and perform actions using REST conventions',
 		techPoints: [
@@ -103,6 +107,7 @@ export const allProjects = [
 			'Infinitely changing quizzes that track user high scores',
 			'Filterable flash cards, population lists, and country data'
 		],
+		thumbs: WQWThumbs,
 		story: 'If you build it...',
 		goal: 'Single-page routing React app that interacts with a robust outside API',
 		techPoints: [
@@ -131,6 +136,7 @@ export const allProjects = [
 			'Teacher access to progress of each individual student',
 			'Color-coded grid to help students focus on unknown facts'
 		],
+		thumbs: TimesThumbs,
 		story: 'If you build it...',
 		goal: 'React frontend/Rails backend, protect user data with authorization and authentication using sessions',
 		techPoints: [
@@ -149,7 +155,7 @@ export const allProjects = [
 		slogan: 'Find Fun For The Kids (AND YOU TOO!)',
 		description: [
 			'I live in the biggest city in the US, with my wife and our 5 year-old. I thought it would be easy to find something interesting to do with your child anytime you wanted, but it is just never easy to find an activity that seems enjoyable and worth the effort.',
-			'So I set out to build an application that allows users to add locations, write reviews and leave scores for multiple age levels. This allows users to search for the locations with the highest score for their own child\'s age group, and also lets you see how enjoyable other users thought it was for adults as well.'
+			'So I set out to build an application that allows users to add locations, write reviews and leave scores for multiple age levels. This allows users to search for the locations with the highest score for their own child\'s age group, and lets you see how enjoyable other users thought it was for adults as well.'
 		],
 		logo: KidsLogo,
 		youtubeEmbedID: 'd9ZfHzMURIw',
@@ -159,6 +165,7 @@ export const allProjects = [
 			'Arrange locations by ratings and reviews for varied age levels',
 			'Save places visited, favorites, and locations to visit next'
 		],
+		thumbs: KidsThumbs,
 		story: 'If you build it...',
 		goal: 'Build API using ActiveRecord and create relationships and save user inputted data to support React frontend',
 		techPoints: [

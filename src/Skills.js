@@ -11,7 +11,7 @@ function Skills({skillRef}) {
 		paddingLeft: '20px'
 	}
 	return (
-		<div ref={skillRef}>
+		<div className='comp-skill' ref={skillRef}>
 		<h1 style={skillsH1}>SKILLS</h1>
 		<div className='comp-skills'>
 			{/* <div> */}

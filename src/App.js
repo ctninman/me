@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useRef, useEffect, useState } from 'react'
 import NavBar from "./NavBar"
 import About from "./About"
 import Projects from "./Projects"
@@ -14,6 +14,49 @@ function App() {
   const blogRef = useRef()
   const skillRef = useRef()
   const contactRef = useRef()
+  const firstUpdate = useRef()
+
+  const [blogIsVisible, setBlogIsVisible] = useState()
+  const [sidebarHighlight, setSidebarHighlight] = useState('about')
+
+  useEffect (() => {
+    // const observer = new IntersectionObserver((entries) => {
+    //   const entry = entries[0]
+    //   console.log('entry', entry)
+    // })
+    // observer.observe(blogRef.current)
+    if (firstUpdate.current) {
+      firstUpdate.current = false;
+      return;
+    }
+    observeRefs(aboutRef)
+    observeRefs(projectRef)
+    observeRefs(blogRef)
+    observeRefs(skillRef)
+    observeRefs(contactRef)
+  }, [] )
+
+  function observeRefs (ref) {
+    const observer = new IntersectionObserver((entries) => {
+      const entry = entries[0]
+      console.log('entry', entry)
+      console.log('ref', ref)
+      if (entry.isIntersecting === true) {
+        if (ref.current.className === 'comp-about') {
+          setSidebarHighlight('about')
+        } else if (ref.current.className === 'comp-project') {
+          setSidebarHighlight('project')
+        } else if (ref.current.className === 'comp-blogs') {
+          setSidebarHighlight('blog')
+        } else if (ref.current.className === 'comp-skill') {
+          setSidebarHighlight('skill')
+        } else if (ref.current.className === 'comp-contact') {
+          setSidebarHighlight('contact')
+        }
+      }
+    })
+    observer.observe(ref.current)
+  }
 
   return (
     <main >
@@ -31,6 +74,7 @@ function App() {
         blogRef={blogRef}
         skillRef={skillRef}
         contactRef={contactRef}
+        sidebarHighlight={sidebarHighlight}
       />
       <div className='page-style'>
         <About aboutRef={aboutRef}/>

@@ -4,7 +4,7 @@ function Story({displayedProject}) {
 	return (
 		<div>
 			{displayedProject.description.map(parag => (
-				<p>{parag}</p>
+				<p style={{textIndent: '20px'}}>{parag}</p>
 			))}
 		</div>
 	);

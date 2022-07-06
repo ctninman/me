@@ -6,17 +6,19 @@ import Story from './Story';
 
 function SingleProject({displayedProject, selectedView, setSelectedView}) {
 
-	// const [selectedView, setSelectedView] = useState('video')
+	const [selectedViewButton, setSelectedViewButton] = useState('story')
 
 	return (
 		<div className='single-project'>
-			<img className='project-logo' src={displayedProject.logo} />
+			<div className='project-logo-container'>
+				<img className='project-logo' src={displayedProject.logo} />
+			</div>
 			<div className='project-details'>
 				<div className='project-sidebar'>
-					<button onClick={() => setSelectedView('story')}>Story</button>
-					<button onClick={() => setSelectedView('video')}>Video</button>
-					<button onClick={() => setSelectedView('features')}>Features</button>
-					<button onClick={() => setSelectedView('tools')}>Tools</button>
+					<button className={selectedView === 'story' ? 'select-project-view' : 'sidebar-button'} onClick={() => setSelectedView('story')}>STORY</button>
+					<button className={selectedView === 'video' ? 'select-project-view' : 'sidebar-button'} onClick={() => setSelectedView('video')}>VIDEO</button>
+					<button className={selectedView === 'features' ? 'select-project-view' : 'sidebar-button'} onClick={() => setSelectedView('features')}>FEATURES</button>
+					<button className={selectedView === 'tools' ? 'select-project-view' : 'sidebar-button'} onClick={() => setSelectedView('tools')}>TOOLS</button>
 				</div>
 				<div className='project-main'>
 					{selectedView === 'video' ? <YoutubeEmbed embedId={displayedProject.youtubeEmbedID} /> : null }

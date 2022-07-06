@@ -11,9 +11,6 @@ function SingleSkill({skill}) {
 	const topNumber = randomTop()
 	const leftNumber = randomLeft()
 
-	console.log(skill.skill, 'tn', topNumber, 'ln', leftNumber)
-	console.log('className', randomClassName)
-
 	function randomTop () {
 		return Math.round(Math.random() * vh) - (vh * 0.05)
 	}

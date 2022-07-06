@@ -19,7 +19,7 @@ function Projects({projectRef}) {
 	}
 
 	return (
-		<div ref={projectRef} style={projectDiv}>
+		<div ref={projectRef} className='comp-project' style={projectDiv}>
 			<h1 style={projecth1}>MY PROJECTS</h1>
 			<div className='comp-projects'>
 				{allProjects.map(project => (
