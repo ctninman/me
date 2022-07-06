@@ -1,9 +1,20 @@
 import React from 'react';
 
 function Contact({contactRef}) {
+
+	const contactH1 = {
+		color: 'rgba(242, 238, 27)',
+		// color: '#29274C',
+		marginBottom: '0px',
+		marginTop: '0px',
+		paddingLeft: '20px',
+		fontWeight: 'bold',
+		textShadow: '#29274C 3px 3px'
+	}
+
 	return (
 		<div ref={contactRef} className='comp-contact'>
-			<h1>CONTACT ME</h1>
+			<h1 style={contactH1}>CONTACT ME</h1>
 			<div className='single-contact'>
 				<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /> 
 				<h1><a href='https://www.linkedin.com/in/christopher-ninman/'>linkedin.com/in/christopher-ninman/</a></h1>

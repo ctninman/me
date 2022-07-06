@@ -258,4 +258,14 @@ export const allSkills = [
 		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
 		height: 80
 	},
+	{
+		skill: 'REST API',
+		skillSVG: 'https://salesforceprofs.com/wp-content/uploads/2019/12/api_rest.png',
+		height: 80
+	},
+	{
+		skill: 'OOP',
+		skillSVG: 'https://miro.medium.com/max/300/0*goJuBKoyL-zZX4RB.png',
+		height: 80
+	},
 ]

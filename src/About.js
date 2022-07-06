@@ -108,7 +108,7 @@ function About({aboutRef}) {
 				}
 				const thirdTimeout = setTimeout(() => {
 					setTriggerFourthEffect(!triggerFourthEffect)
-				}, 350)
+				}, 400)
 				return () => clearTimeout(thirdTimeout)
 			}
 		}, [triggerThirdEffect] )

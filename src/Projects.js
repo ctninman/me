@@ -12,10 +12,13 @@ function Projects({projectRef}) {
 		backgroundColor: '#D295BF'
 	}
 	const projecth1 ={
-		marginTop: '0px',
+		// backgroundColor: '#D295BF',
+		color: '#29274C',
 		marginBottom: '0px',
-		paddingLeft: '20px'
-
+		marginTop: '0px',
+		paddingLeft: '20px',
+		fontWeight: 'bold',
+		textShadow: 'rgba(242, 238, 27) 3px 3px'
 	}
 
 	return (
