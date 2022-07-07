@@ -345,7 +345,6 @@ transform: scale(1.03,1.03);
 }
 
 .pause-button {
-	/* width: fit-content; */
 	background-color: #29274C;
 	color:#F2EE1B;
 	cursor: pointer;
