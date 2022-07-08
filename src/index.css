@@ -354,6 +354,7 @@ transform: scale(1.03,1.03);
 
 .deploy-link img {
 	width: 100%;
+	object-fit: contain;
 }
 
 .github-link {
@@ -367,6 +368,7 @@ transform: scale(1.03,1.03);
 
 .github-link img {
 	width: 100%;
+	object-fit: contain;
 }
 
 .image-top-layer-enter {
