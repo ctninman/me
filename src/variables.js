@@ -74,7 +74,7 @@ export const allProjects = [
 		slogan: 'Spotify Re-imagined for Album Collectors',
 		description: [
 			"I am a vinyl record collector. I used to be a CD collector. I love to physically interact with my music, pull the record out, set it on the turntable, and place the needle in position. I also love organizing all my physical albums on my shelves.",
-			"But I also love having access to such a plethora of music digitally. However, my best friend and I have always complained about how much better Spotify could be to organize album collections, and albums that you'd like to hear, but don't necessarily want in your collection",
+			"But I also love having access to such a plethora of music digitally. However, my best friend and I have always complained about how much better Spotify could be at organizing album collections, and albums that you'd like to hear, but don't necessarily want in your collection",
 			"This app is my attempt to make Spotify exactly how I want it to be."
 		],
 		logo: CurateifyLogo,
