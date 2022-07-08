@@ -20,11 +20,10 @@ function App() {
   const [sidebarHighlight, setSidebarHighlight] = useState('about')
 
   useEffect (() => {
-    // const observer = new IntersectionObserver((entries) => {
-    //   const entry = entries[0]
-    //   console.log('entry', entry)
-    // })
-    // observer.observe(blogRef.current)
+    document.title = "Christopher Ninman"
+  }, [] )
+
+  useEffect (() => {
     if (firstUpdate.current) {
       firstUpdate.current = false;
       return;
