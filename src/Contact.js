@@ -4,7 +4,6 @@ function Contact({contactRef}) {
 
 	const contactH1 = {
 		color: 'rgba(242, 238, 27)',
-		// color: '#29274C',
 		marginBottom: '0px',
 		marginTop: '0px',
 		paddingLeft: '20px',
