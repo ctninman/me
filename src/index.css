@@ -343,6 +343,32 @@ transform: scale(1.03,1.03);
 	/* position: relative; */
 }
 
+.deploy-link {
+	padding-left: 15%;
+	padding-right: 15%;
+	display: flex;
+	padding-top: 20px;
+	justify-content: center;
+	width: 15%;
+}
+
+.deploy-link img {
+	width: 100%;
+}
+
+.github-link {
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	width: 15%;
+}
+
+.github-link img {
+	width: 100%;
+}
+
 .image-top-layer-enter {
 	animation-duration: 0.5s;
 	animation-name: animate-pop;
@@ -409,12 +435,23 @@ transform: scale(1.03,1.03);
 }
 
 .project-logo {
-	height: 100px;
+	display: flex;
+	justify-content: center;
+	width: 70%;
+	/* max-height: 100px; */
 	margin: 10px;
 	border-radius: 5px;
 }
 
+.project-logo img {
+	object-fit: contain;
+	/* max-height: 100px; */
+	width: 200%;
+	/* max-height: fit-content; */
+}
+
 .project-logo-container {
+	width: 100%;
 	display: flex;
 	justify-content: center;
 }
