@@ -195,6 +195,7 @@ transform: scale(1.03,1.03);
 	cursor: pointer;
 	/* writing-mode: vertical-rl; */
 	transform: rotate(315deg);
+	transition: 500ms;
 	text-align: center;
 	border-radius: 3px;
 	/* text-orientation: upright; */
