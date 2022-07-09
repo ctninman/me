@@ -205,6 +205,7 @@ transform: scale(1.03,1.03);
 	/* color: #29274C; */
 	font-weight: bolder;
 	border: 2px solid #F2EE1B;
+	animation: move 250ms;
 	box-shadow: rgba(242, 238, 27, 0.4) 5px 5px, rgba(242, 238, 27, 0.3) 10px 10px, rgba(242, 238, 27, 0.2) 15px 15px, rgba(242, 238, 27, 0.1) 20px 20px, rgba(242, 238, 27, 0.05) 25px 25px;
 }
 
@@ -292,29 +293,23 @@ transform: scale(1.03,1.03);
 } */
 
 
-/* @keyframes move {
-  0% {
-    offset-distance: 0%;
-  }
-	10% {
+@keyframes move {
+	0% {
 		box-shadow: rgba(242, 238, 27, 0.4) 5px 5px  
 	}
-	30% {
-    box-shadow: rgba(242, 238, 27, 0.4) 5px 5px, rgba(242, 238, 27, 0.3) 10px 10px, rgba(242, 238, 27, 0.2) 15px 15px
+	25% {
+    box-shadow: rgba(242, 238, 27, 0.4) 5px 5px, rgba(242, 238, 27, 0.3) 10px 10px
   }
 	50% {
-    box-shadow: rgba(242, 238, 27, 0.4) 5px 5px, rgba(242, 238, 27, 0.3) 10px 10px, rgba(242, 238, 27, 0.2) 15px 15px, rgba(242, 238, 27, 0.1) 20px 20px, rgba(242, 238, 27, 0.05) 25px 25px
-  }
-  70% {
     box-shadow: rgba(242, 238, 27, 0.4) 5px 5px, rgba(242, 238, 27, 0.3) 10px 10px, rgba(242, 238, 27, 0.2) 15px 15px
   }
-	90% {
-    box-shadow: rgba(242, 238, 27, 0.4) 5px 5px  
+	75% {
+    box-shadow: rgba(242, 238, 27, 0.4) 5px 5px, rgba(242, 238, 27, 0.3) 10px 10px, rgba(242, 238, 27, 0.2) 15px 15px, rgba(242, 238, 27, 0.1) 20px 20px
   }
-  100% {
-    offset-distance: 100%;
+	100% {
+    box-shadow: rgba(242, 238, 27, 0.4) 5px 5px, rgba(242, 238, 27, 0.3) 10px 10px, rgba(242, 238, 27, 0.2) 15px 15px, rgba(242, 238, 27, 0.1) 20px 20px, rgba(242, 238, 27, 0.05) 25px 25px
   }
-} */
+}
 
 .comp-single-skill img {
 	width: 50px;
