@@ -60,13 +60,13 @@ function App() {
   return (
     <main >
       <title>Christopher Ninman</title>
-      <NavBar 
+      {/* <NavBar 
         aboutRef={aboutRef}
         projectRef={projectRef}
         blogRef={blogRef}
         skillRef={skillRef}
         contactRef={contactRef}
-      />
+      /> */}
       <Sidebar         
         aboutRef={aboutRef}
         projectRef={projectRef}
@@ -74,6 +74,7 @@ function App() {
         skillRef={skillRef}
         contactRef={contactRef}
         sidebarHighlight={sidebarHighlight}
+        setSidebarHighlight={setSidebarHighlight}
       />
       <div className='page-style'>
         <About aboutRef={aboutRef}/>

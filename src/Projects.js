@@ -22,26 +22,29 @@ function Projects({projectRef}) {
 	}
 
 	return (
-		<div ref={projectRef} className='comp-project' style={projectDiv}>
-			<h1 style={projecth1}>MY PROJECTS</h1>
-			<div className='comp-projects'>
-				{allProjects.map(project => (
-					<SingleProjectThumb 
-						key={project.appName} 
-						project={project}
-						displayedProject={displayedProject}
-						setDisplayedProject={setDisplayedProject}
-						selectedView={selectedView}
-						setSelectedView={setSelectedView}
-					/>
-				))}
+		<>
+			<div className='ref-helper-pink'></div>
+			<div ref={projectRef} className='comp-project' style={projectDiv}>
+				<h1 style={projecth1}>MY PROJECTS</h1>
+				<div className='comp-projects'>
+					{allProjects.map(project => (
+						<SingleProjectThumb 
+							key={project.appName} 
+							project={project}
+							displayedProject={displayedProject}
+							setDisplayedProject={setDisplayedProject}
+							selectedView={selectedView}
+							setSelectedView={setSelectedView}
+						/>
+					))}
+				</div>
+				<SingleProject 
+					displayedProject={displayedProject}
+					selectedView={selectedView}
+					setSelectedView={setSelectedView}
+				/>
 			</div>
-			<SingleProject 
-				displayedProject={displayedProject}
-				selectedView={selectedView}
-				setSelectedView={setSelectedView}
-			/>
-		</div>
+		</>
 	);
 }
 

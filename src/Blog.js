@@ -13,7 +13,10 @@ function Blog({blogRef}) {
 		textShadow: '#29274C 3px 3px'
 	}
 	
+	
 	return (
+		<>
+		<div className='ref-helper-purple'></div>
 		<div ref={blogRef} className='comp-blogs'>
 			<h1 style={blogH1}>BLOG POSTS</h1>
 			{blogPosts.map (post => (
@@ -23,6 +26,7 @@ function Blog({blogRef}) {
 				/>
 			))}
 		</div>
+		</>
 	);
 }
 
