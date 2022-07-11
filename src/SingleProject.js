@@ -15,7 +15,7 @@ function SingleProject({displayedProject, selectedView, setSelectedView}) {
 					<a href={displayedProject.gitHubLink} target='_blank'><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'/></a>
 				</div>
 				<div className='project-logo'>
-					<img src={displayedProject.logo} />
+					<a href={displayedProject.deployedSite} target='_blank'><img src={displayedProject.logo} /></a>
 				</div>
 				<div className='deploy-link'>
 					<a href={displayedProject.deployedSite} target='_blank'><img src='https://www.freepnglogos.com/uploads/logo-website-png/logo-website-world-wide-web-the-internet-know-your-meme-7.png'/></a>

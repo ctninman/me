@@ -193,27 +193,27 @@ export const allSkills = [
 	{
 		skill: 'RubyOnRails',
 		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg',
-		height: 80
+		height: 100
 	},
 	{
 		skill: 'HTML5',
 		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
-		height: 80
+		height: 100
 	},
 	{
 		skill: 'CSS3',
 		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
-		height: 90
+		height: 100
 	},
 	{
 		skill: 'JavaScript',
 		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
-		height: 90
+		height: 100
 	},
 	{
 		skill: 'Canva',
 		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg',
-		height: 70
+		height: 80
 	},
 	{
 		skill: 'BootStrap',
@@ -233,7 +233,7 @@ export const allSkills = [
 	{
 		skill: 'Github',
 		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
-		height: 60
+		height: 70
 	},
 	{
 		skill: 'Heroku',
@@ -248,12 +248,12 @@ export const allSkills = [
 	{
 		skill: 'PostgreSQL',
 		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
-		height: 60
+		height: 70
 	},
 	{
 		skill: 'Ruby',
 		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg',
-		height: 80
+		height: 90
 	},
 	{
 		skill: 'SQLite',
