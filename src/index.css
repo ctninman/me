@@ -1,19 +1,19 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Arima:wght@500&family=Roboto:wght@500&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 
 body {
 	padding: 0;
 	margin: 0;
 	/* font-family: 'Arima', cursive; */
-	font-family: 'Mukta', sans-serif;
-	font-family: 'Cabin', sans-serif;
+	/* font-family: 'Mukta', sans-serif; */
+	font-family: 'Jost', sans-serif;
 }
 
 button {
 	/* font-family: 'Arima', cursive; */
 	/* font-family: 'Mukta', sans-serif; */
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Jost', sans-serif;
 	background-color: #F2EE1B;
 	cursor: pointer;
 	border-radius: 3px;
@@ -47,6 +47,7 @@ button {
 	overflow: scroll;
 	border-radius: 5px;
 	box-sizing: border-box;
+
 	/* font-weight: bold; */
 
 }
@@ -61,6 +62,7 @@ button {
 
 .blog-flip p {
 	margin-top: 5px;
+	text-decoration: none !important;
 }
 
 
@@ -106,6 +108,7 @@ transform: scale(1.03,1.03);
 } */
 
 .comp-about {
+	padding-top: 20px;
 	background-color: #7E52A0;
 	color: white;
 	/* margin-top: 40px; */
@@ -395,7 +398,7 @@ transform: scale(1.03,1.03);
 .image-top-layer-enter {
 	animation-duration: 0.5s;
 	animation-name: animate-pop;
-	animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+	animation-timing-function: cubic-bezier(.32,1.07,.68,1.1)
 }
 
 .image-top-layer-exit {

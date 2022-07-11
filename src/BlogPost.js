@@ -24,8 +24,8 @@ function BlogPost({post}) {
 				</a>
 					:
 				<a href={post.link} target="_blank">	
-					<div className='blog-flip'>
-						<p>{post.introParagraph}</p>
+					<div style={{textDecoration: 'none'}} className='blog-flip'>
+						<p style={{textDecoration: 'none'}}>{post.introParagraph}</p>
 					</div>
 				</a>
 			}
