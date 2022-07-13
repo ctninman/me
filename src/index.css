@@ -38,6 +38,7 @@ button {
 
 .about-right {
 	width: 60%;
+	border-bottom: 2px solid #29274C;
 }
 
 
@@ -116,6 +117,7 @@ transform: scale(1.03,1.03);
 	text-align:left;
 	display: flex;
 	flex-direction: row;
+	border-bottom: 3px solid black;
 }
 
 .comp-about p {

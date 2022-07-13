@@ -28,7 +28,6 @@ function About({aboutRef}) {
 	const [currentTraitIndex, setCurrentTraitIndex] = useState(0)
 	const [fadeInClass, setFadeInClass] = useState(true)
 	const [showTopLayer, setShowTopLayer] = useState(false)
-	const [rerenderImage, setRerenderImage] = useState(false)
 	const [triggerSecondEffect, setTriggerSecondEffect] = useState(false)
 	const [triggerThirdEffect, setTriggerThirdEffect] = useState(false)
 	const [triggerFourthEffect, setTriggerFourthEffect] = useState(false)
