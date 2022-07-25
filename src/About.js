@@ -149,8 +149,8 @@ function About({aboutRef}) {
 				<div className='about-left'>
 					<h3>Hello. I am</h3>
 					<h1 style={{textAlign: 'center'}}>Christopher Ninman</h1>
-					<div className='job-descriptions'>
 						<h3>I am a </h3>
+					<div className='job-descriptions'>
 						<h2 style={traitStyle}> full-stack developer /</h2>
 						<h2 style={traitStyle}> software engineer /</h2>
 						<h2 style={changingTraitStyle}> {currentTrait.description}</h2>

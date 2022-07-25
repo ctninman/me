@@ -29,6 +29,7 @@ button {
 	margin: 5px;
 	font-size: 28px;
 	color: #F2EE1B;
+	text-shadow: rgba(41, 39, 76, 0.4) 5px 5px, rgba(41, 39, 76, 0.3) 10px 10px, rgba(41, 39, 76, 0.2) 15px 15px, rgba(41, 39, 76, 0.1) 20px 20px, rgba(41, 39, 76, 0.05) 25px 25px;
 }
 
 .about-left h2 {
@@ -40,6 +41,7 @@ button {
 .about-left h3 {
 	margin: 5px;
 	font-size: 24px;
+	text-align: center;
 }
 
 .about-right {
@@ -436,6 +438,13 @@ transform: scale(1.03,1.03);
 	}
 }
 
+.job-descriptions {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 .navbar {
 	position: fixed;
 	height: 60px;
@@ -460,6 +469,7 @@ transform: scale(1.03,1.03);
 	color:#F2EE1B;
 	cursor: pointer;
 	height: 40px;
+	width: fit-content;
 	/* margin-left: 10%; */
 	/* margin-right: 10%; */
 	/* margin-top: 20px; */
@@ -549,6 +559,7 @@ transform: scale(1.03,1.03);
 	color: #29274C;
 	cursor: pointer;
 	height: 40px;
+	width: fit-content;
 	/* margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 20px;
@@ -654,10 +665,11 @@ transform: scale(1.03,1.03);
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 	.about-left {
 		width: 100%;
 		flex-direction: row;
+		flex-wrap: wrap;
 	}
 	
 	.about-left h1 {
@@ -678,7 +690,8 @@ transform: scale(1.03,1.03);
 		margin: 1px;
 		font-size: 20px;
 		flex-direction: row;
-		text-align: left;
+		text-align: center;
+		word-wrap: normal;
 	}
 
 	.about-right {
@@ -767,7 +780,7 @@ transform: scale(1.03,1.03);
 		margin: 1px;
 		font-size: 16px;
 		flex-direction: row;
-		text-align: left;
+		text-align: center;
 		margin-left: 10px;
 	}
 
@@ -775,8 +788,19 @@ transform: scale(1.03,1.03);
 		font-size: 20px;
 	}
 
+	.pause-button {
+		font-size: 16px;
+		height: 26px;
+		width: fit-content;
+	}
 	.project-thumb h1 {
 		font-size: 22px;
+	}
+
+	.resume-button {
+		font-size: 16px;
+		height: 26px;
+		width: fit-content;
 	}
 }
 
