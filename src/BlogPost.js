@@ -18,7 +18,7 @@ function BlogPost({post}) {
 					? 
 				<a href={post.link} target="_blank">
 					<div className='blog-thumb'>
-						<img style={{width: '150px'}} src={post.image} />
+						<img src={post.image} />
 						<h1>{post.title}</h1>
 					</div>
 				</a>
