@@ -149,16 +149,20 @@ function About({aboutRef}) {
 				<div className='about-left'>
 					<h3>Hello. I am</h3>
 					<h1 style={{textAlign: 'center'}}>Christopher Ninman</h1>
-					<h3>I am a</h3>
-					<h2 style={traitStyle}> - full-stack developer /</h2>
-					<h2 style={traitStyle}> - software engineer /</h2>
-					<h2 style={changingTraitStyle}> - {currentTrait.description}</h2>
-					{!pauseSlides 
-							? 
-						<button className='pause-button' onClick={handlePauseSlides}>TELL ME MORE</button> 
-							:
-						<button className='resume-button' onClick={handleContinueSlides}>CONTINUE</button> 
-					}
+					<div className='job-descriptions'>
+						<h3>I am a </h3>
+						<h2 style={traitStyle}> full-stack developer /</h2>
+						<h2 style={traitStyle}> software engineer /</h2>
+						<h2 style={changingTraitStyle}> {currentTrait.description}</h2>
+					</div>
+					<div className='slide-button'>
+						{!pauseSlides 
+								? 
+							<button className='pause-button' onClick={handlePauseSlides}>TELL ME MORE</button> 
+								:
+							<button className='resume-button' onClick={handleContinueSlides}>CONTINUE</button> 
+						}
+					</div>
 				</div>
 				<div className='about-right' style={parentDiv}>
 					<img style={bottomLayer} src={PortfolioBackground} />
