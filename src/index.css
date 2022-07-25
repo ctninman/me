@@ -34,6 +34,12 @@ button {
 .about-left h2 {
 	margin: 5px;
 	font-size: 24px;
+	text-align: center;
+}
+
+.about-left h3 {
+	margin: 5px;
+	font-size: 24px;
 }
 
 .about-right {
@@ -630,4 +636,126 @@ transform: scale(1.03,1.03);
   position: absolute;
 }
 
+
+@media only screen and (max-width: 600px) {
+	.about-left {
+		width: 100%;
+		flex-direction: row;
+	}
+	
+	.about-left h1 {
+		margin: 1px;
+		font-size: 24px;
+		color: #F2EE1B;
+		flex-direction: row;
+
+	}
+	
+	.about-left h2 {
+		margin: 1px;
+		font-size: 20px;
+		flex-direction: row;
+		text-align: center;
+	}
+
+	.about-left h3 {
+		margin: 1px;
+		font-size: 20px;
+		flex-direction: row;
+		text-align: left;
+	}
+
+	.about-right {
+		width: 100%;
+		border-bottom: 2px solid #29274C;
+	}
+
+	.comp-about{
+		flex-direction: column;
+	}
+
+	.comp-sidebar {
+		background-color: #29274C;
+		color: white;
+		position: fixed;
+		z-index: 2;
+		margin: 0;
+		margin-left: 0%;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: right;
+		height: 40px;
+		padding-top: 5px;
+		text-align: center;
+	}
+
+	.comp-sidebar div {
+		margin-top: 5px;
+		width: 20%;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.comp-sidebar h1 {
+		font-size: 13px;
+		width: fit-content;
+		padding-left: 5px;
+		padding-right: 5px;
+		cursor: pointer;
+		/* writing-mode: vertical-rl; */
+		transform: rotate(0deg);
+		text-align: center;
+		border-radius: 3px;
+		/* text-orientation: upright; */
+	}
+
+	.page-style {
+		margin-left: 0%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content:right;
+		padding-top: 30px;
+	}
+
+	.project-thumb h1 {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	
+	.about-left h1 {
+		margin: 1px;
+		font-size: 24px;
+		color: #F2EE1B;
+		flex-direction: row;
+
+	}
+	
+	.about-left h2 {
+		margin: 1px;
+		font-size: 20px;
+		flex-direction: row;
+		text-align: center;
+	}
+
+	.about-left h3 {
+		margin: 1px;
+		font-size: 20px;
+		flex-direction: row;
+		text-align: left;
+		margin-left: 10px;
+	}
+
+	.blog-post h1 {
+		font-size: 20px;
+	}
+
+	.project-thumb h1 {
+		font-size: 22px;
+	}
+}
 
