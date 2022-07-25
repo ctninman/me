@@ -818,6 +818,10 @@ transform: scale(1.03,1.03);
 		width: 98%;
 	}
 
+	.project-sidebar button {
+		margin: 3px;
+	}
+
 	.project-thumb h1 {
 		font-size: 16px;
 	}
