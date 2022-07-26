@@ -903,3 +903,12 @@ transform: scale(1.03,1.03);
 	}
 }
 
+
+@media only screen and (max-width: 500px) {
+	.video-responsive {
+		height: 145px;
+		width:  243px;
+	}
+}
+
+
