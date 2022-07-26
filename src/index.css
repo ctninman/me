@@ -29,7 +29,10 @@ button {
 	margin: 5px;
 	font-size: 28px;
 	color: #F2EE1B;
-	text-shadow: rgba(41, 39, 76, 0.4) 5px 5px, rgba(41, 39, 76, 0.3) 10px 10px, rgba(41, 39, 76, 0.2) 15px 15px, rgba(41, 39, 76, 0.1) 20px 20px, rgba(41, 39, 76, 0.05) 25px 25px;
+	text-shadow: rgba(41, 39, 76, 0.4) 3px 3px, rgba(41, 39, 76, 0.3) 6px 6px, rgba(41, 39, 76, 0.2) 9px 9px, rgba(41, 39, 76, 0.1) 12px 12px, rgba(41, 39, 76, 0.05) 15px 15px,
+	rgba(41, 39, 76, 0.4) -3px 3px, rgba(41, 39, 76, 0.3) -6px 6px, rgba(41, 39, 76, 0.2) -9px 9px, rgba(41, 39, 76, 0.1) -12px 12px, rgba(41, 39, 76, 0.05) -15px 15px,
+	rgba(41, 39, 76, 0.4) -3px -3px, rgba(41, 39, 76, 0.3) -6px -6px, rgba(41, 39, 76, 0.2) -9px -9px, rgba(41, 39, 76, 0.1) -12px -12px, rgba(41, 39, 76, 0.05) -15px -15px,
+	rgba(41, 39, 76, 0.4) 3px -3px, rgba(41, 39, 76, 0.3) 6px -6px, rgba(41, 39, 76, 0.2) 9px -9px, rgba(41, 39, 76, 0.1) 12px -12px, rgba(41, 39, 76, 0.05) 15px -15px 
 }
 
 .about-left h2 {
