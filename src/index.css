@@ -46,7 +46,6 @@ button {
 
 .about-right {
 	width: 60%;
-	border-bottom: 2px solid #29274C;
 }
 
 
@@ -550,6 +549,7 @@ transform: scale(1.03,1.03);
 	margin-bottom: 10px;
 	padding-left: 5px;
 	padding-right: 5px;
+	line-height: 32px;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 	cursor: pointer;
 }
@@ -822,6 +822,10 @@ transform: scale(1.03,1.03);
 		margin: 3px;
 	}
 
+	.project-thumb {
+		line-height: 19px;
+	}
+
 	.project-thumb h1 {
 		font-size: 16px;
 	}
@@ -874,6 +878,11 @@ transform: scale(1.03,1.03);
 		height: 26px;
 		width: fit-content;
 	}
+
+	.project-thumb {
+		line-height: 25px;
+	}
+
 	.project-thumb h1 {
 		font-size: 22px;
 	}
@@ -905,6 +914,42 @@ transform: scale(1.03,1.03);
 
 
 @media only screen and (max-width: 500px) {
+
+	.blog-post img {
+		width: 100px;
+		height: 50px;
+		margin: 5px;
+		margin-top: 20px;
+		border-radius: 5px;
+	}
+
+	.project-thumb {
+		line-height: 17px;
+	}
+
+	.project-thumb h1 {
+		font-size: 14px;
+	}
+
+	.select-project-view {
+		height: 30px;
+		margin-left: 3%;
+		margin-right: 3%;
+		/* margin-top: 20px;
+		margin-bottom: 20px; */
+		font-size: 13px;
+	}
+
+	.sidebar-button {
+		height: 30px;
+		margin-left: 3%;
+		margin-right: 3%;
+		/* margin-top: 20px;
+		margin-bottom: 20px; */
+		font-size: 13px;
+	}
+}
+
 	.video-responsive {
 		height: 145px;
 		width:  243px;
