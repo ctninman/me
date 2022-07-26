@@ -16,18 +16,18 @@ function BlogPost({post}) {
 		<div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='blog-post'>
 			{!blogHover 
 					? 
-				<a href={post.link} target="_blank">
 					<div className='blog-thumb'>
 						<img src={post.image} />
+						<a href={post.link} target="_blank">
 						<h1>{post.title}</h1>
+						</a>
 					</div>
-				</a>
 					:
-				<a style={{textDecoration: 'none'}} href={post.link} target="_blank">	
 					<div className='blog-flip'>
+						<a style={{textDecoration: 'none'}} href={post.link} target="_blank">	
 						<p>{post.introParagraph}</p>
+						</a>
 					</div>
-				</a>
 			}
 		</div>
 	);
