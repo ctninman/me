@@ -192,7 +192,7 @@ transform: scale(1.03,1.03);
 .comp-projects h1 {
 	margin-top: 5px;
 	height: 80px;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 	color: #29274C;
 }
 
@@ -519,6 +519,7 @@ transform: scale(1.03,1.03);
 	/* max-height: 100px; */
 	width: 100%;
 	border-radius: 5px;
+	animation: pulse-purple 2s infinite;
 	/* max-height: fit-content; */
 }
 
@@ -552,6 +553,7 @@ transform: scale(1.03,1.03);
 	line-height: 32px;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 	cursor: pointer;
+	animation: pulse-yellow 2s infinite;
 }
 
 .project-thumb img{
@@ -735,7 +737,6 @@ transform: scale(1.03,1.03);
 
 	.about-right {
 		width: 100%;
-		border-bottom: 2px solid #29274C;
 	}
 
 	.blog-post img {
@@ -751,6 +752,10 @@ transform: scale(1.03,1.03);
 
 	.comp-about p {
 		font-size: 15px;
+	}
+
+	.comp-projects h1 {
+		height: 60px;
 	}
 
 	.comp-sidebar {
@@ -788,6 +793,16 @@ transform: scale(1.03,1.03);
 		text-align: center;
 		border-radius: 3px;
 		/* text-orientation: upright; */
+	}
+
+	.deploy-link {
+		padding-top: 10px;
+		width: 35px;
+	}
+
+	.github-link {
+		padding-top: 10px;
+		width: 35px;
 	}
 
 	.job-descriptions {
@@ -873,6 +888,16 @@ transform: scale(1.03,1.03);
 		margin: 5px;
 	}
 
+	.deploy-link {
+		padding-top: 15px;
+		width: 40px;
+	}
+
+	.github-link {
+		padding-top: 15px;
+		width: 40px;
+	}
+
 	.pause-button {
 		font-size: 16px;
 		height: 26px;
@@ -916,11 +941,25 @@ transform: scale(1.03,1.03);
 @media only screen and (max-width: 500px) {
 
 	.blog-post img {
-		width: 100px;
-		height: 50px;
+		width: 80px;
+		height: 40px;
 		margin: 5px;
-		margin-top: 20px;
+		margin-top: 25px;
 		border-radius: 5px;
+	}
+
+	.comp-projects h1 {
+		height: 45px;
+	}
+
+	.deploy-link {
+		padding-top: 8px;
+		width: 27px;
+	}
+
+	.github-link {
+		padding-top: 8px;
+		width: 27px;
 	}
 
 	.project-thumb {

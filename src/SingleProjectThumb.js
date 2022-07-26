@@ -3,7 +3,12 @@ import React, { useState } from 'react';
 function SingleProjectThumb({project, setDisplayedProject, displayedProject, setSelectedView}) {
 
 	const activeProjectStyle = {
-		border: '5px solid #7E52A0',
+		border: '3px solid #7E52A0',
+		boxSizing: 'border-box'
+	}
+
+	const inactiveProjectStyle = {
+		border: '2px solid #F2EE1B',
 		boxSizing: 'border-box'
 	}
 	
@@ -16,7 +21,7 @@ function SingleProjectThumb({project, setDisplayedProject, displayedProject, set
 		<div 
 				className='project-thumb' 
 				onClick={handleProjectSelect}
-				style={project === displayedProject ? activeProjectStyle : null }>
+				style={project === displayedProject ? activeProjectStyle : inactiveProjectStyle }>
 			<h1>{project.appName}</h1>
 			<img src={project.thumbnail} />
 		</div>
