@@ -7,6 +7,7 @@ import PortfolioMetal from './images/Portfolio-toplevel-metal.png'
 import PortfolioVolleyball from './images/Portfolio-toplevel-volleyball.png'
 import PortfolioMusic from './images/Portfolio-toplevel-music.png'
 import PortfolioTravel from './images/Portfolio-toplevel-travel.png'
+import PortfolioPuzzle from './images/Portfolio-toplevel-puzzle.png'
 
 
 function About({aboutRef}) {
@@ -22,6 +23,7 @@ function About({aboutRef}) {
 		{description: 'volleyball player', image: PortfolioVolleyball, paragraph: 'I often get asked where I met my wife. The answer is, of course, at the Dodge YMCA playing volleyball. And we\'re actually one of six couples that got married through playing together at the YMCA. We still love playing, but most of the time is now at the park, where our 5 year-old volleyball obsessed son can play with us as well.'},
 		{description: 'world traveler', image: PortfolioTravel, paragraph: 'My wife and I have a collection of ceramic and wooden suns that we have gathered from our travels around the world that hang above the large arches in our apartment. We currently have 42 suns hanging in our home. My most treasured sun is handpainted by the amazing girl I used to babysit, who came all the way to Italy from New York to be our flower girl, and wanted to paint us one when she saw it at a shop.'},
 		{description: 'heavy-metal guitarist', image: PortfolioMetal, paragraph: 'A purchase of an Ozzfest live VHS tape was my gateway into the world of heavy metal, and the beginning of my love of music. My best friends in high school and I had a band that played thrash and melodic death metal. I went through a phase where I thought I shouldn\'t listen to metal because I was grown-up. I now realize the error in my thinking, and am hoping to plug in the amp and turn it to 11 once we move out of our 1-bedroom apartment in Brooklyn. Someday.'},
+		{description: 'puzzle solver', image: PortfolioPuzzle, paragraph: 'When I think of my favorite video games of all-time, a plethora of grid-based puzzlers come to mind. Minesweeper was easily my most played game as a youngster, and when I got my Nintendo DS, it became a device strictly used for playing Picross and Picross 3D (nanograms). When I think of incredible design and programming, the minimalistic Hook by Maciej Targoni tops my list. An intuitive variety of features that must be clicked in the correct order are introduced without a word of direction, no timers needed, and just two simple colors.'},
 	]
 
 	const [currentTrait, setCurrentTrait] = useState(aboutTraits[0])
