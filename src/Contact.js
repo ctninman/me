@@ -31,6 +31,10 @@ function Contact({contactRef}) {
 				<h1><a href='mailto: christopher.ninman@gmail.com'>christopher.ninman@gmail.com</a></h1>
 			</div>
 			<div className='single-contact'>
+				<img src="https://toppng.com/uploads/preview/open-bandcamp-logo-white-11562938577ooqpoam563.png" />
+				<h1><a href='https://christopherninman.bandcamp.com/'>christopherninman.bandcamp.com</a></h1>
+			</div>
+			<div className='single-contact'>
 				<img src="https://www.pinpng.com/pngs/m/300-3001266_free-png-home-icon-home-house-icon-logo.png" />
 				<h1>Brooklyn, NY</h1>
 			</div>

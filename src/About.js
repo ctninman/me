@@ -53,7 +53,7 @@ function About({aboutRef}) {
 		position: 'absolute',
 		top: '0',
 		left: '0',
-		width: '100%'
+		width: '100%',
 	}
 	const traitStyle = {
 		textShadow: '3px 3px 0px #0B0909'
