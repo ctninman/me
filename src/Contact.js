@@ -8,7 +8,7 @@ function Contact({contactRef}) {
 		marginTop: '0px',
 		paddingLeft: '20px',
 		fontWeight: 'bold',
-		textShadow: '#29274C 3px 3px'
+		textShadow: '#0B0909 3px 3px'
 	}
 
 	return (

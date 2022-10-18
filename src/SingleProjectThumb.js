@@ -3,12 +3,12 @@ import React, { useState } from 'react';
 function SingleProjectThumb({project, setDisplayedProject, displayedProject, setSelectedView}) {
 
 	const activeProjectStyle = {
-		border: '3px solid #7E52A0',
+		border: '3px solid #8C8C8C',
 		boxSizing: 'border-box'
 	}
 
 	const inactiveProjectStyle = {
-		border: '2px solid #F2EE1B',
+		border: '2px solid rgb(242, 238, 27)',
 		boxSizing: 'border-box'
 	}
 	
