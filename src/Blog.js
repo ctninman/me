@@ -5,12 +5,12 @@ import BlogPost from './BlogPost'
 function Blog({blogRef}) {
 
 	const blogH1 = {
-		color: 'rgba(242, 238, 27)',
+		color: '#0B0909',
 		marginBottom: '0px',
 		marginTop: '0px',
 		paddingLeft: '20px',
 		fontWeight: 'bold',
-		textShadow: '#0B0909 3px 3px'
+		textShadow: '#F04B1F 3px 3px'
 	}
 	
 	

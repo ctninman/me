@@ -56,12 +56,13 @@ function About({aboutRef}) {
 		width: '100%',
 	}
 	const traitStyle = {
-		textShadow: '3px 3px 0px #0B0909'
+		fontWeight: 'bold',
+		textShadow: '1px 1px 0px #0B0909'
 	}
 	const changingTraitStyle = {
 		fontWeight: 'bold',
-		color: 'rgb(242, 238, 27)',
-		textShadow: '3px 3px 0px #0B0909'
+		color: '#F04B1F',
+		textShadow: '1px 1px 1px #0B0909'
 	}
 
 	useEffect (() => {
@@ -175,7 +176,7 @@ function About({aboutRef}) {
 			<div className='comp-about' style={{marginTop: '-10px'}}>
 				{pauseSlides
 						?
-					<p style={{backgroundColor: 'rgb(242, 238, 27)'}}>{currentTrait.paragraph}</p>
+					<p style={{backgroundColor: '#F04B1F'}}>{currentTrait.paragraph}</p>
 						:
 					<p>I am a career-changing educator with passion and talent for using technology to create inspiring educational material and websites to foster engagement and learning. My first priority is a dedication to meet all target goals, and then reaching well beyond with creative flair. Not limited to, but skilled in React, JavaScript, Rails, Ruby, and CSS, and always fascinated to learn other languages and frameworks. I am hard-working, meticulous, and creative, but above all, an empathetic, kind, and collaborative member of my surrounding community.</p>
 				}

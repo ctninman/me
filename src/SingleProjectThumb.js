@@ -8,7 +8,7 @@ function SingleProjectThumb({project, setDisplayedProject, displayedProject, set
 	}
 
 	const inactiveProjectStyle = {
-		border: '2px solid rgb(242, 238, 27)',
+		border: '2px solid #F04B1F',
 		boxSizing: 'border-box'
 	}
 	
@@ -23,7 +23,7 @@ function SingleProjectThumb({project, setDisplayedProject, displayedProject, set
 				onClick={handleProjectSelect}
 				style={project === displayedProject ? activeProjectStyle : inactiveProjectStyle }>
 			<h1>{project.appName}</h1>
-			<img src={project.thumbnail} />
+			<img alt='project name' src={project.thumbnail} />
 		</div>
 	);
 }

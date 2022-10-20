@@ -13,12 +13,14 @@ function SingleProject({displayedProject, selectedView, setSelectedView}) {
 			<div className='project-logo-container'>
 				<div className='github-link'>
 					<a href={displayedProject.gitHubLink} target='_blank'><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'/></a>
+					<a href={displayedProject.gitHubLink} target='_blank'><h3>VIEW SOURCE CODE</h3></a>
 				</div>
 				<div className='project-logo'>
 					<a href={displayedProject.deployedSite} target='_blank'><img src={displayedProject.logo} /></a>
 				</div>
 				<div className='deploy-link'>
 					<a href={displayedProject.deployedSite} target='_blank'><img src='https://www.freepnglogos.com/uploads/logo-website-png/logo-website-world-wide-web-the-internet-know-your-meme-7.png'/></a>
+					<a href={displayedProject.deployedSite} target='_blank'><h3>GO TO SITE</h3></a>
 				</div>
 			</div>
 			<div className='project-details'>

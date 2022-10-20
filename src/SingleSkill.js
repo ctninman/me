@@ -27,7 +27,7 @@ function SingleSkill({skill}) {
 		// top: '20px',
 		textAlign: 'center',
 		// position: 'absolute'
-		// boxShadow: 'rgb(242, 238, 27) 5px 5px, rgba(242, 238, 27, 0.3) 10px 10px, rgba(242, 238, 27, 0.2) 15px 15px, rgba(242, 238, 27, 0.1) 20px 20px, rgba(242, 238, 27, 0.05) 25px 25px'
+		// boxShadow: '#F04B1F 5px 5px, rgba(240, 75, 31, 0.3) 10px 10px, rgba(240, 75, 31, 0.2) 15px 15px, rgba(240, 75, 31, 0.1) 20px 20px, rgba(240, 75, 31, 0.05) 25px 25px'
 	}
 
 	const skillImageStyle =  {

@@ -155,9 +155,9 @@ export const allProjects = [
 	{
 		appName: 'Take The Kids Out',
 		technologiesUsed: 'React, JavaScript, CSS, Ruby, ActiveRecord, Heroku',
-		videoLink: 'https://www.loom.com/share/098133a34fa04deebda97138ba99daab',
+		videoLink: 'https://www.loom.com/share/b21e099a9e8e4348b94c0c627b61959e',
 		youTubeLink: false,
-		deployedSite: 'https://times-tables-master.herokuapp.com/',
+		deployedSite: 'https://www.loom.com/share/b21e099a9e8e4348b94c0c627b61959e',
 		gitHubLink: 'https://github.com/ctninman/Take-The-Kids-Out-Phase3-Project',
 		slogan: 'Find Fun For The Kids (AND YOU TOO!)',
 		description: [

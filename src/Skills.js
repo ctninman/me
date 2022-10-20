@@ -11,7 +11,7 @@ function Skills({skillRef}) {
 		marginTop: '0px',
 		paddingLeft: '20px',
 		fontWeight: 'bold',
-		textShadow: 'rgba(242, 238, 27) 3px 3px'
+		textShadow: '#F04B1F 3px 3px'
 	}
 	return (
 		<div className='comp-skill' ref={skillRef}>

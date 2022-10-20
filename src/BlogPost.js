@@ -17,14 +17,14 @@ function BlogPost({post}) {
 			{!blogHover 
 					? 
 					<div className='blog-thumb'>
-						<img src={post.image} />
-						<a href={post.link} target="_blank">
-						<h1>{post.title}</h1>
+						<img alt='blog post title' src={post.image} />
+						<a rel='noreferrer' href={post.link} target="_blank">
+						<h1 style={{color: '#0B0909'}}>{post.title}</h1>
 						</a>
 					</div>
 					:
 					<div className='blog-flip'>
-						<a style={{textDecoration: 'none'}} href={post.link} target="_blank">	
+						<a rel='noreferrer' style={{textDecoration: 'none'}} href={post.link} target="_blank">	
 						<p>{post.introParagraph}</p>
 						</a>
 					</div>
