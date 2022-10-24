@@ -38,6 +38,9 @@ function Contact({contactRef}) {
 				<img alt="Located in:" src="https://www.pinpng.com/pngs/m/300-3001266_free-png-home-icon-home-house-icon-logo.png" />
 				<h1>Brooklyn, NY</h1>
 			</div>
+			<div className='single-contact'>
+				<iframe style={{border: '0', width: '100%', height: '120px', borderRadius: '5px'}} src="https://bandcamp.com/EmbeddedPlayer/album=3270040406/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://christopherninman.bandcamp.com/album/fragments">Fragments by Christopher Ninman</a></iframe>
+			</div>
 			
 		</div>
 	);
