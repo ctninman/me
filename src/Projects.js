@@ -9,10 +9,11 @@ function Projects({projectRef}) {
 	const [selectedView, setSelectedView] = useState('story')
 
 	const projectDiv = {
-		backgroundColor: '#D6D6D6'
+		backgroundColor: '#ebebeb',
+		borderBottom: '3px solid black'
 	}
 	const projecth1 ={
-		// backgroundColor: '#D6D6D6',
+		// backgroundColor: '#ebebeb',
 		color: '#0B0909',
 		marginBottom: '0px',
 		marginTop: '0px',

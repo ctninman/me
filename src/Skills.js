@@ -5,7 +5,7 @@ import { allSkills } from './variables.js'
 function Skills({skillRef}) {
 
 	const skillsH1 = {
-		backgroundColor: '#D6D6D6',
+		backgroundColor: '#ebebeb',
 		color: '#0B0909',
 		marginBottom: '0px',
 		marginTop: '0px',

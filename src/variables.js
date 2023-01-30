@@ -185,40 +185,21 @@ export const allProjects = [
 
 
 export const allSkills = [
+
 	{
-		skill: 'React',
-		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
-		height: 100
+		skill: 'BootStrap',
+		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg',
+		height: 50
 	},
 	{
-		skill: 'RubyOnRails',
-		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg',
-		height: 100
-	},
-	{
-		skill: 'HTML5',
-		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+		skill: 'Canva',
+		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg',
 		height: 100
 	},
 	{
 		skill: 'CSS3',
 		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
 		height: 100
-	},
-	{
-		skill: 'JavaScript',
-		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
-		height: 100
-	},
-	{
-		skill: 'Canva',
-		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg',
-		height: 80
-	},
-	{
-		skill: 'BootStrap',
-		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg',
-		height: 50
 	},
 	{
 		skill: 'Figma',
@@ -231,6 +212,11 @@ export const allSkills = [
 		height: 50
 	},
 	{
+		skill: 'Git',
+		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
+		height: 70
+	},
+	{
 		skill: 'Github',
 		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
 		height: 70
@@ -241,9 +227,35 @@ export const allSkills = [
 		height: 60
 	},
 	{
+		skill: 'HTML5',
+		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+		height: 100
+	},
+
+	{
+		skill: 'JavaScript',
+		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+		height: 100
+	},
+	{
+		skill: 'Jest',
+		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg',
+		height: 70
+	},
+	{
+		skill: 'MongoDB',
+		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
+		height: 50
+	},
+	{
 		skill: 'NodeJS',
 		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
 		height: 50
+	},
+	{
+		skill: 'OOP',
+		skillSVG: 'https://www.pcforecaster.com/wp-content/uploads/2021/03/object-oriented-programming3367480.png',
+		height: 80
 	},
 	{
 		skill: 'PostgreSQL',
@@ -251,9 +263,29 @@ export const allSkills = [
 		height: 70
 	},
 	{
+		skill: 'Python',
+		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+		height: 80
+	},
+	{
+		skill: 'React',
+		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+		height: 100
+	},
+	{
+		skill: 'REST API',
+		skillSVG: 'https://restfulapi.net/wp-content/uploads/rest.png',
+		height: 80
+	},
+	{
 		skill: 'Ruby',
 		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg',
 		height: 90
+	},
+	{
+		skill: 'RubyOnRails',
+		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg',
+		height: 100
 	},
 	{
 		skill: 'SQLite',
@@ -261,18 +293,18 @@ export const allSkills = [
 		height: 60
 	},
 	{
+		skill: 'Swift',
+		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg',
+		height: 50
+	},
+	{
+		skill: 'Typescript',
+		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
+		height: 60
+	},
+	{
 		skill: 'VSCode',
 		skillSVG: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
 		height: 80
-	},
-	{
-		skill: 'REST API',
-		skillSVG: 'https://salesforceprofs.com/wp-content/uploads/2019/12/api_rest.png',
-		height: 80
-	},
-	{
-		skill: 'OOP',
-		skillSVG: 'https://miro.medium.com/max/300/0*goJuBKoyL-zZX4RB.png',
-		height: 80
-	},
+	}
 ]
