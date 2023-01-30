@@ -168,7 +168,7 @@ function About({aboutRef}) {
 					</div>
 				</div>
 				<div className='about-right' style={parentDiv}>
-					<img style={bottomLayer} src={PortfolioBackground} />
+					<img alt="Headshot ofChris" style={bottomLayer} src={PortfolioBackground} />
 					{showTopLayer ? <TopLayer topLayer={topLayer} fadeInClass={fadeInClass} currentTrait={currentTrait}/> : null }
 				</div>
 

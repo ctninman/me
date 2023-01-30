@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 
 function NavBar({aboutRef, projectRef, blogRef, skillRef, contactRef}) {
 

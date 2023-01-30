@@ -4,7 +4,7 @@ function Features({displayedProject}) {
 	return (
 		<div>
 			<div style={{width: '100%'}}>
-				<img style={{width: '100%'}} src={displayedProject.thumbs} />
+				<img alt='project screenshot' style={{width: '100%'}} src={displayedProject.thumbs} />
 			</div>
 			<ul>
 				{displayedProject.features.map(feature => (

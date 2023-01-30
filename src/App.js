@@ -1,5 +1,5 @@
 import { useRef, useEffect, useState } from 'react'
-import NavBar from "./NavBar"
+// import NavBar from "./NavBar"
 import About from "./About"
 import Projects from "./Projects"
 import Blog from "./Blog"
@@ -16,7 +16,7 @@ function App() {
   const contactRef = useRef()
   const firstUpdate = useRef()
 
-  const [blogIsVisible, setBlogIsVisible] = useState()
+  // const [blogIsVisible, setBlogIsVisible] = useState()
   const [sidebarHighlight, setSidebarHighlight] = useState('about')
 
   useEffect (() => {

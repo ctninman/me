@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import YoutubeEmbed from "./YoutubeEmbed";
 import Features from './Features'
 import Tools from './Tools'
@@ -6,21 +6,19 @@ import Story from './Story';
 
 function SingleProject({displayedProject, selectedView, setSelectedView}) {
 
-	const [selectedViewButton, setSelectedViewButton] = useState('story')
-
 	return (
 		<div className='single-project'>
 			<div className='project-logo-container'>
 				<div className='github-link'>
-					<a href={displayedProject.gitHubLink} target='_blank'><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'/></a>
-					<a href={displayedProject.gitHubLink} target='_blank'><h3>VIEW SOURCE CODE</h3></a>
+					<a href={displayedProject.gitHubLink} target='_blank' rel="noreferrer"><img alt='Github logo' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'/></a>
+					<a href={displayedProject.gitHubLink} target='_blank' rel="noreferrer"><h3>VIEW SOURCE CODE</h3></a>
 				</div>
 				<div className='project-logo'>
-					<a href={displayedProject.deployedSite} target='_blank'><img src={displayedProject.logo} /></a>
+					<a href={displayedProject.deployedSite} target='_blank' rel="noreferrer"><img alt='Project Logo' src={displayedProject.logo} /></a>
 				</div>
 				<div className='deploy-link'>
-					<a href={displayedProject.deployedSite} target='_blank'><img src='https://www.freepnglogos.com/uploads/logo-website-png/logo-website-world-wide-web-the-internet-know-your-meme-7.png'/></a>
-					<a href={displayedProject.deployedSite} target='_blank'><h3>GO TO SITE</h3></a>
+					<a href={displayedProject.deployedSite} target='_blank' rel="noreferrer"><img alt="The World Wide Web logo" src='https://www.freepnglogos.com/uploads/logo-website-png/logo-website-world-wide-web-the-internet-know-your-meme-7.png'/></a>
+					<a href={displayedProject.deployedSite} target='_blank' rel="noreferrer"><h3>GO TO SITE</h3></a>
 				</div>
 			</div>
 			<div className='project-details'>
