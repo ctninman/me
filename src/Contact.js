@@ -1,4 +1,5 @@
 import React from 'react';
+import MyLogo from './images/EdveloperLogo.png'
 
 function Contact({contactRef}) {
 
@@ -41,8 +42,11 @@ function Contact({contactRef}) {
 				</a>
 				</div>
 			</div>	
-			<div className='bandcamp' style={{marginLeft: 'auto', marginRight: 'auto'}}>
-				<iframe title="My Music on Bandcamp" style={{ padding: '10px', border: '10px', width: '80%', height: '120px'}} src="https://bandcamp.com/EmbeddedPlayer/album=3270040406/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://christopherninman.bandcamp.com/album/fragments">Fragments by Christopher Ninman</a></iframe>
+			<div style={{width: '300px', margin: 'auto', paddingBottom: '50px'}}>
+				<img style={{width: '100%'}} alt='Edveloper logo' src={MyLogo}/>
+			</div>
+			<div className='bandcamp' style={{width: '400px',  margin: 'auto'}}>
+				<iframe title="My Music on Bandcamp" style={{ padding: '10px', border: '10px', width: '100%', height: '120px'}} src="https://bandcamp.com/EmbeddedPlayer/album=3270040406/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://christopherninman.bandcamp.com/album/fragments">Fragments by Christopher Ninman</a></iframe>
 			</div>
 		</div>
 	);
