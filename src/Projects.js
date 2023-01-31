@@ -19,7 +19,7 @@ function Projects({projectRef}) {
 		marginTop: '0px',
 		paddingLeft: '20px',
 		fontWeight: 'bold',
-		textShadow: '#F04B1F 3px 3px'
+		textShadow: '#F04B1F 2px 2px'
 	}
 
 	return (

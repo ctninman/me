@@ -8,6 +8,7 @@ import PortfolioVolleyball from './images/Portfolio-toplevel-volleyball.png'
 import PortfolioMusic from './images/Portfolio-toplevel-music.png'
 import PortfolioTravel from './images/Portfolio-toplevel-travel.png'
 import PortfolioPuzzle from './images/Portfolio-toplevel-puzzle.png'
+import EdveloperLogo from './images/EdveloperLogo.png'
 
 
 function About({aboutRef}) {
@@ -57,12 +58,16 @@ function About({aboutRef}) {
 	}
 	const traitStyle = {
 		fontWeight: 'bold',
-		textShadow: '1px 1px 0px #0B0909'
+		// textShadow: '1px 1px 0px #0B0909'
 	}
 	const changingTraitStyle = {
 		fontWeight: 'bold',
 		color: '#F04B1F',
 		textShadow: '1px 1px 1px #0B0909'
+	}
+	const logoStyle = {
+		width: '50%',
+		margin: 'auto'
 	}
 
 	useEffect (() => {
@@ -150,6 +155,9 @@ function About({aboutRef}) {
 		<div>
 			<div ref={aboutRef} className='comp-about'>
 				<div className='about-left'>
+					<div style={logoStyle}>
+						<img style={{width: '100%'}} alt='Edveloper Logo' src={EdveloperLogo}/>
+					</div>
 					<h3>Hello. I am</h3>
 					<h1 style={{textAlign: 'center'}}>Christopher Ninman</h1>
 						<h3>I am a </h3>
