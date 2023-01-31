@@ -155,7 +155,7 @@ function About({aboutRef}) {
 		<div>
 			<div ref={aboutRef} className='comp-about'>
 				<div className='about-left'>
-					<div style={logoStyle}>
+					<div className='logo-top'>
 						<img style={{width: '100%'}} alt='Edveloper Logo' src={EdveloperLogo}/>
 					</div>
 					<h3>Hello. I am</h3>

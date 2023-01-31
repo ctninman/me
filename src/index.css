@@ -486,6 +486,11 @@ transform: scale(1.03,1.03);
 	justify-content: center;
 }
 
+.logo-top {
+	width: 50%;
+	margin: auto
+}
+
 .navbar {
 	position: fixed;
 	height: 60px;
@@ -510,7 +515,7 @@ transform: scale(1.03,1.03);
 	color:#F04B1F;
 	cursor: pointer;
 	height: 40px;
-	width: fit-content;
+	width: 180px;
 	/* margin-left: 10%; */
 	/* margin-right: 10%; */
 	/* margin-top: 20px; */
@@ -622,7 +627,7 @@ transform: scale(1.03,1.03);
 	color: #0B0909;
 	cursor: pointer;
 	height: 40px;
-	width: fit-content;
+	width: 180px;
 	/* margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 20px;
@@ -925,6 +930,11 @@ transform: scale(1.03,1.03);
 		flex-direction: row;
 	}
 
+	.logo-top {
+		padding-top: 10px;
+		width: 130px
+	}
+
 	.page-style {
 		margin-left: 0%;
 		width: 100%;
@@ -1013,10 +1023,14 @@ transform: scale(1.03,1.03);
 		width: 40px;
 	}
 
+	/* .logo-top {
+		width: 150px;
+	} */
+
 	.pause-button {
 		font-size: 16px;
 		height: 26px;
-		width: fit-content;
+		width: 180px;
 	}
 
 	.project-thumb {
@@ -1030,7 +1044,7 @@ transform: scale(1.03,1.03);
 	.resume-button {
 		font-size: 16px;
 		height: 26px;
-		width: fit-content;
+		width: 180px;
 	}
 
 	.select-project-view {
@@ -1081,6 +1095,14 @@ transform: scale(1.03,1.03);
 		width: 27px;
 	}
 
+	.logo-top {
+		width: 130px;
+	}
+
+	.page-style {
+		width: 100%;
+	}
+
 	.project-thumb {
 		line-height: 17px;
 	}
@@ -1105,6 +1127,17 @@ transform: scale(1.03,1.03);
 		/* margin-top: 20px;
 		margin-bottom: 20px; */
 		font-size: 13px;
+	}
+
+	.single-contact {
+		width: 60px;
+		height: 60px;
+		margin: 5px;
+		padding: 5px;
+	}
+
+	.social-container {
+		padding-top: 30px;
 	}
 
 	.video-responsive {
