@@ -1,12 +1,15 @@
-import { useRef, useEffect, useState } from 'react'
+import React, { useRef, useEffect, useState } from 'react'
 // import NavBar from "./NavBar"
 import About from "./About"
-import Projects from "./Projects"
-import Blog from "./Blog"
-import Skills from "./Skills"
+// import Projects from "./Projects"
+// import Blog from "./Blog"
+// import Skills from "./Skills"
 import Contact from "./Contact"
 import './index.css'
 import Sidebar from "./Sidebar"
+const Projects = React.lazy(() => import('./Projects'))
+const Blog = React.lazy(() => import('./Blog'))
+const Skills = React.lazy(() => import('./Skills'))
 
 function App() {
   const aboutRef = useRef()
