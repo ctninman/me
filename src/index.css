@@ -444,34 +444,38 @@ transform: scale(1.03,1.03);
 }
 
 .image-top-layer-enter {
-	animation-duration: 0.5s;
+	animation-duration: 1.5s;
 	animation-name: animate-pop;
-	animation-timing-function: cubic-bezier(.32,1.07,.68,1.1)
+	/* animation-timing-function: cubic-bezier(.32,1.07,.68,1.1) */
 }
 
 .image-top-layer-exit {
-	animation-duration: 0.5s;
+	animation-duration: 1.5s;
 	animation-name: animate-unpop;
-	animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+	/* animation-timing-function: cubic-bezier(.26, .53, .74, 1.48); */
 }
 
 @keyframes animate-pop {
 	0% {
-		transform: translate(1200px, 0px);
+		/* transform: translate(1200px, 0px); */
+		opacity: 0;
 	}
 
 	100% {
-		transform: translate(0px, 0px);
+		/* transform: translate(0px, 0px); */
+		opacity: 1;
 	}
 }
 
 @keyframes animate-unpop {
 	
 	0% {
-		transform: translate(0px, 0px);
+		/* transform: translate(0px, 0px); */
+		opacity: 1;
 	}
 	100% {
-		transform: translate(-1200px, 0px);
+		/* transform: translate(-1200px, 0px); */
+		opacity: 0;
 	}
 }
 
