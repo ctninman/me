@@ -50,13 +50,13 @@ a:active { text-decoration: none; }
 
 .about-left h2 {
 	margin: 2px;
-	font-size: 20px;
+	font-size: 18px;
 	text-align: center;
 }
 
 .about-left h3 {
 	margin: 2px;
-	font-size: 20px;
+	font-size: 18px;
 	text-align: center;
 }
 
@@ -286,42 +286,57 @@ transform: scale(1.03,1.03);
     transform: rotateZ(0);
   }
   15% {
-    transform: rotateZ(-15deg);
-  }
-  20% {
-    transform: rotateZ(10deg);
-  }
-  25% {
     transform: rotateZ(-10deg);
   }
+  20% {
+    transform: rotateZ(9deg);
+  }
+  25% {
+    transform: rotateZ(-8deg);
+  }
   30% {
-    transform: rotateZ(6deg);
+    transform: rotateZ(7deg);
   }
   35% {
+    transform: rotateZ(-6deg);
+  }
+	40% {
+    transform: rotateZ(5deg);
+  }
+	45% {
     transform: rotateZ(-4deg);
   }
-  40%, 100% {
+	50% {
+    transform: rotateZ(3deg);
+  }
+	55% {
+    transform: rotateZ(-2deg);
+  }
+	60% {
+    transform: rotateZ(1deg);
+  }
+  65%, 100% {
     transform: rotateZ(0);
   }
 }
 .sk1 {
-	animation: wiggle 2000ms linear infinite;
+	animation: wiggle 3000ms linear infinite;
 }
 
 .sk2 {
-	animation: wiggle 2250ms linear infinite;
+	animation: wiggle 3250ms linear infinite;
 }
 
 .sk3 {
-	animation: wiggle 2500ms linear infinite;
+	animation: wiggle 3500ms linear infinite;
 }
 
 .sk4 {
-	animation: wiggle 1750ms linear infinite;
+	animation: wiggle 2750ms linear infinite;
 }
 
 .sk5 {
-	animation: wiggle 1500ms linear infinite;
+	animation: wiggle 2500ms linear infinite;
 }
 
 /* .sk1 {
@@ -892,14 +907,14 @@ transform: scale(1.03,1.03);
 	
 	.about-left h2 {
 		margin: 1px;
-		font-size: 14px;
+		font-size: 12.5px;
 		flex-direction: row;
 		text-align: center;
 	}
 
 	.about-left h3 {
 		margin: 1px;
-		font-size: 14px;
+		font-size: 12.5px;
 		flex-direction: row;
 		text-align: center;
 		word-wrap: normal;
@@ -1058,14 +1073,14 @@ transform: scale(1.03,1.03);
 	
 	.about-left h2 {
 		margin: 1px;
-		font-size: 16px;
+		font-size: 15.5px;
 		flex-direction: row;
 		text-align: center;
 	}
 
 	.about-left h3 {
 		margin: 1px;
-		font-size: 16px;
+		font-size: 14.5px;
 		flex-direction: row;
 		text-align: center;
 		margin-left: 10px;

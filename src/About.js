@@ -160,10 +160,10 @@ function About({aboutRef}) {
 					</div>
 					<h3>Hello. I am</h3>
 					<h1 style={{textAlign: 'center'}}>Christopher Ninman</h1>
-						<h3>I am a </h3>
+						{/* <h3>I am a full-stack</h3> */}
 					<div className='job-descriptions'>
-						<h2 style={traitStyle}> full-stack developer /</h2>
-						<h2 style={traitStyle}> educator /</h2>
+						<h2 style={traitStyle}> I am a full-stack</h2>
+						<h2 style={traitStyle}>developer, educator, and</h2>
 						<h2 style={changingTraitStyle}> {currentTrait.description}</h2>
 					</div>
 					<div className='slide-button'>
