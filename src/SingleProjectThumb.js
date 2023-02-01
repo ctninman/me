@@ -2,12 +2,12 @@ import React from 'react';
 
 function SingleProjectThumb({project, setDisplayedProject, displayedProject, setSelectedView}) {
 
-	const activeProjectStyle = {
-		border: '3px solid #8C8C8C',
+	const inactiveProjectStyle = {
+		border: '1px solid #8C8C8C',
 		boxSizing: 'border-box'
 	}
 
-	const inactiveProjectStyle = {
+	const activeProjectStyle = {
 		border: '2px solid #F04B1F',
 		boxSizing: 'border-box'
 	}
