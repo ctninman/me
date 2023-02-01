@@ -82,8 +82,8 @@ function App() {
       <div className='page-style'>
         <About aboutRef={aboutRef}/>
         <Projects projectRef={projectRef}/>
-        <Blog blogRef={blogRef}/>
         <Skills skillRef={skillRef}/>
+        <Blog blogRef={blogRef}/>
         <Contact contactRef={contactRef}/>
       </div>
     </main>

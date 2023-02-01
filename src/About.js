@@ -163,7 +163,7 @@ function About({aboutRef}) {
 						<h3>I am a </h3>
 					<div className='job-descriptions'>
 						<h2 style={traitStyle}> full-stack developer /</h2>
-						<h2 style={traitStyle}> software engineer /</h2>
+						<h2 style={traitStyle}> educator /</h2>
 						<h2 style={changingTraitStyle}> {currentTrait.description}</h2>
 					</div>
 					<div className='slide-button'>

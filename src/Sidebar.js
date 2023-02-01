@@ -16,11 +16,11 @@ function Sidebar({aboutRef, projectRef, blogRef, skillRef, contactRef, sidebarHi
 			<div onClick={() => handleSidebarClick(projectRef, 'project')}>
 				<h1 className={sidebarHighlight === 'project' ? 'sidebar-highlight' : 'sidebar-no-highlight'}>PROJECTS</h1>
 			</div>
-			<div onClick={() => handleSidebarClick(blogRef, 'blog')}>
-				<h1 className={sidebarHighlight === 'blog' ? 'sidebar-highlight' : 'sidebar-no-highlight'}>BLOG</h1>
-			</div>
 			<div onClick={() => handleSidebarClick(skillRef, 'skill')}>
 				<h1 className={sidebarHighlight === 'skill' ? 'sidebar-highlight' : 'sidebar-no-highlight'}>SKILLS</h1>
+			</div>
+			<div onClick={() => handleSidebarClick(blogRef, 'blog')}>
+				<h1 className={sidebarHighlight === 'blog' ? 'sidebar-highlight' : 'sidebar-no-highlight'}>BLOG</h1>
 			</div>
 			<div onClick={() => handleSidebarClick(contactRef, 'contact')}>
 				<h1 className={sidebarHighlight === 'contact' ? 'sidebar-highlight' : 'sidebar-no-highlight'}>CONTACT</h1>

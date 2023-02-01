@@ -5,7 +5,9 @@ import BlogPost from './BlogPost'
 function Blog({blogRef}) {
 
 	const blogH1 = {
-		color: '#0B0909',
+		// color: '#0B0909',
+		backgroundColor: '#000000',
+		color: '#ffffff',
 		marginBottom: '0px',
 		marginTop: '0px',
 		paddingLeft: '20px',

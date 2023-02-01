@@ -4,7 +4,9 @@ import MyLogo from './images/EdveloperLogo.png'
 function Contact({contactRef}) {
 
 	const contactH1 = {
-		color: '#0B0909',
+		// color: '#0B0909',
+		backgroundColor: '#000000',
+		color: '#ffffff',
 		marginBottom: '0px',
 		marginTop: '0px',
 		paddingLeft: '20px',
@@ -42,11 +44,11 @@ function Contact({contactRef}) {
 				</a>
 				</div>
 			</div>	
-			<div style={{width: '300px', margin: 'auto', paddingBottom: '50px'}}>
+			<div style={{width: '300px', margin: 'auto', paddingBottom: '30px', paddingTop: '20px'}}>
 				<img style={{width: '100%'}} alt='Edveloper logo' src={MyLogo}/>
 			</div>
-			<div className='bandcamp' style={{width: '400px',  margin: 'auto'}}>
-				<iframe title="My Music on Bandcamp" style={{ padding: '10px', border: '10px', width: '100%', height: '120px'}} src="https://bandcamp.com/EmbeddedPlayer/album=3270040406/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://christopherninman.bandcamp.com/album/fragments">Fragments by Christopher Ninman</a></iframe>
+			<div className='bandcamp'>
+				<iframe title="My Music on Bandcamp" style={{ width: '100%', height: '120px'}} src="https://bandcamp.com/EmbeddedPlayer/album=3270040406/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://christopherninman.bandcamp.com/album/fragments">Fragments by Christopher Ninman</a></iframe>
 			</div>
 		</div>
 	);

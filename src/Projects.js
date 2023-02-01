@@ -10,11 +10,12 @@ function Projects({projectRef}) {
 
 	const projectDiv = {
 		backgroundColor: '#ebebeb',
-		borderBottom: '3px solid black'
+		// borderBottom: '3px solid black'
 	}
 	const projecth1 ={
-		// backgroundColor: '#ebebeb',
-		color: '#0B0909',
+		backgroundColor: '#000000',
+		// color: '#0B0909',
+		color: '#ffffff',
 		marginBottom: '0px',
 		marginTop: '0px',
 		paddingLeft: '20px',
