@@ -262,7 +262,7 @@ transform: scale(1.03,1.03);
 	font-weight: bolder;
 	border: 2px solid #F04B1F;
 	animation: move 250ms;
-	box-shadow: rgba(240, 75, 31, 0.4) 5px 5px, rgba(240, 75, 31, 0.3) 10px 10px, rgba(240, 75, 31, 0.2) 15px 15px, rgba(240, 75, 31, 0.1) 20px 20px, rgba(240, 75, 31, 0.05) 25px 25px;
+	box-shadow: rgba(240, 75, 31, 0.4) -5px 5px, rgba(240, 75, 31, 0.3) -10px 10px, rgba(240, 75, 31, 0.2) -15px 15px, rgba(240, 75, 31, 0.1) -20px 20px, rgba(240, 75, 31, 0.05) -25px 25px;
 }
 
 .comp-single-skill {
@@ -352,13 +352,31 @@ transform: scale(1.03,1.03);
 
 @keyframes move {
 	0% {
+		box-shadow: rgba(240, 75, 31, 0.4) -5px 5px  
+	}
+	25% {
+    box-shadow: rgba(240, 75, 31, 0.4) -5px 5px, rgba(240, 75, 31, 0.3) -10px 10px
+  }
+	50% {
+    box-shadow: rgba(240, 75, 31, 0.4) -5px 5px, rgba(240, 75, 31, 0.3) -10px 10px, rgba(240, 75, 31, 0.2) -15px 15px
+  }
+	75% {
+    box-shadow: rgba(240, 75, 31, 0.4) -5px 5px, rgba(240, 75, 31, 0.3) -10px 10px, rgba(240, 75, 31, 0.2) -15px 15px, rgba(240, 75, 31, 0.1) -20px 20px
+  }
+	100% {
+    box-shadow: rgba(240, 75, 31, 0.4) -5px 5px, rgba(240, 75, 31, 0.3) -10px 10px, rgba(240, 75, 31, 0.2) -15px 15px, rgba(240, 75, 31, 0.1) -20px 20px, rgba(240, 75, 31, 0.05) -25px 25px
+  }
+}
+
+@keyframes move-project {
+	0% {
 		box-shadow: rgba(240, 75, 31, 0.4) 5px 5px  
 	}
 	25% {
     box-shadow: rgba(240, 75, 31, 0.4) 5px 5px, rgba(240, 75, 31, 0.3) 10px 10px
   }
 	50% {
-    box-shadow: rgba(240, 75, 31, 0.4) 5px 5px, rgba(240, 75, 31, 0.3) 10px 10px, rgba(240, 75, 31, 0.2) 15px 15px
+    box-shadow: rgba(240, 75, 31, 0.4) 5px 5px, rgba(240, 75, 31, 0.3) 10px 10px, rgba(240, 75, 31, 0.2) -5px 15px
   }
 	75% {
     box-shadow: rgba(240, 75, 31, 0.4) 5px 5px, rgba(240, 75, 31, 0.3) 10px 10px, rgba(240, 75, 31, 0.2) 15px 15px, rgba(240, 75, 31, 0.1) 20px 20px
@@ -367,6 +385,7 @@ transform: scale(1.03,1.03);
     box-shadow: rgba(240, 75, 31, 0.4) 5px 5px, rgba(240, 75, 31, 0.3) 10px 10px, rgba(240, 75, 31, 0.2) 15px 15px, rgba(240, 75, 31, 0.1) 20px 20px, rgba(240, 75, 31, 0.05) 25px 25px
   }
 }
+
 
 .comp-single-skill img {
 	width: 50px;
@@ -423,7 +442,7 @@ transform: scale(1.03,1.03);
 
 .deploy-link h3 {
 	text-align: center;
-	font-size: 12px;
+	font-size: 9px;
 	line-height: 100%;
 	margin: 0px;
 }
@@ -446,7 +465,7 @@ transform: scale(1.03,1.03);
 
 .github-link h3 {
 	text-align: center;
-	font-size: 12px;
+	font-size: 9px;
 	line-height: 100%;
 	margin: 0px;
 }
@@ -704,7 +723,7 @@ transform: scale(1.03,1.03);
 	/* color: #0B0909; */
 	font-weight: bolder;
 	border: 2px solid #F04B1F;
-	animation: move 250ms;
+	animation: move-project 250ms;
 	box-shadow: rgba(240, 75, 31, 0.4) 5px 5px, rgba(240, 75, 31, 0.3) 10px 10px, rgba(240, 75, 31, 0.2) 15px 15px, rgba(240, 75, 31, 0.1) 20px 20px, rgba(240, 75, 31, 0.05) 25px 25px;
 }
 
@@ -712,7 +731,7 @@ transform: scale(1.03,1.03);
 	background-color: #F04B1F;
 	color: #0B0909;
 	font-weight: bolder;
-	box-shadow: rgba(240, 75, 31, 0.4) 5px 5px, rgba(240, 75, 31, 0.3) 10px 10px, rgba(240, 75, 31, 0.2) 15px 15px, rgba(240, 75, 31, 0.1) 20px 20px, rgba(240, 75, 31, 0.05) 25px 25px;
+	box-shadow: rgba(240, 75, 31, 0.4) -5px 5px, rgba(240, 75, 31, 0.3) -10px 10px, rgba(240, 75, 31, 0.2) -15px 15px, rgba(240, 75, 31, 0.1) -20px 20px, rgba(240, 75, 31, 0.05) -25px 25px;
 }
 
 .single-contact {
@@ -1140,9 +1159,17 @@ transform: scale(1.03,1.03);
 		width: 27px;
 	}
 
+	.deploy-link h3 {
+		display: none;
+	}
+
 	.github-link {
 		padding-top: 8px;
 		width: 27px;
+	}
+
+	.github-link h3 {
+		display: none;
 	}
 
 	.logo-top {
@@ -1162,21 +1189,21 @@ transform: scale(1.03,1.03);
 	}
 
 	.select-project-view {
-		height: 30px;
-		margin-left: 3%;
-		margin-right: 3%;
+		height: 21px;
+		margin-left: 2%;
+		margin-right: 2%;
 		/* margin-top: 20px;
 		margin-bottom: 20px; */
 		font-size: 13px;
 	}
 
 	.sidebar-button {
-		height: 30px;
-		margin-left: 3%;
-		margin-right: 3%;
+		height: 20px;
+		margin-left: 2%;
+		margin-right: 2%;
 		/* margin-top: 20px;
 		margin-bottom: 20px; */
-		font-size: 13px;
+		font-size: 12px;
 	}
 
 	.single-contact {
