@@ -847,7 +847,7 @@ transform: scale(1.03,1.03);
 	.about-left h1 {
 		margin: 1px;
 		font-size: 22px;
-		color: #F04B1F;
+		/* color: #F04B1F; */
 		flex-direction: row;
 	}
 	
@@ -1012,7 +1012,7 @@ transform: scale(1.03,1.03);
 	.about-left h1 {
 		margin: 1px;
 		font-size: 22px;
-		color: #F04B1F;
+		/* color: #F04B1F; */
 		flex-direction: row;
 
 	}
