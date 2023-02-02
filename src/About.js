@@ -38,6 +38,8 @@ function About({aboutRef}) {
 	const [pauseSlides, setPauseSlides] = useState(false)
 	const [checkPause, setCheckPause] = useState(false)
 
+	const mainParagraph = 'I am a motivated and driven software developer with strong knowledge of CS principles, software design, technical documentation, and testing. As a former educator, I am skilled at listening, collaborating, and meeting daily deadlines, as well as explaining concepts and ideas verbally and in writing. I am hard-working, meticulous, and creative, but above all, an empathetic, kind, and collaborative member of my surrounding community, searching for ways to use programming to build materials that teach and educate.'
+
 	const parentDiv = {
 		position: 'relative',
 		top: '0',
@@ -186,7 +188,7 @@ function About({aboutRef}) {
 						?
 					<p onClick={handleContinueSlides} style={{backgroundColor: '#F04B1F', cursor: 'pointer'}}>{currentTrait.paragraph}</p>
 						:
-					<p onClick={handlePauseSlides} style={{cursor: 'pointer'}}>I am a career-changing educator with passion and talent for using technology to create inspiring educational material and websites to foster engagement and learning. My first priority is a dedication to meet all target goals, and then reaching well beyond with creative flair. Not limited to, but skilled in React, JavaScript, Rails, Ruby, and CSS, and always fascinated to learn other languages and frameworks. I am hard-working, meticulous, and creative, but above all, an empathetic, kind, and collaborative member of my surrounding community.</p>
+					<p onClick={handlePauseSlides} style={{cursor: 'pointer'}}>{mainParagraph}</p>
 				}
 			</div>
 		</div>
