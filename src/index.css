@@ -149,8 +149,8 @@ transform: scale(1.03,1.03);
 }
 
 .comp-about p {
-	font-size: 18px;
-	font-weight: bold;
+	font-size: 16px;
+	font-weight: 600px;
 	background-color: white;
 	text-indent: 25px;
 	border-radius: 10px;
@@ -1053,7 +1053,7 @@ transform: scale(1.03,1.03);
 	}
 
 	.comp-sidebar h1 {
-		font-size: 13px;
+		font-size: 12px;
 		width: fit-content;
 		padding-left: 5px;
 		padding-right: 5px;
@@ -1174,6 +1174,11 @@ transform: scale(1.03,1.03);
 		font-size: 20px;
 	}
 
+	.comp-sidebar h1 {
+		font-size: 12px;
+		font-weight: 600px;
+	}
+
 	.comp-single-skill {
 		margin: 5px;
 	}
@@ -1269,8 +1274,12 @@ transform: scale(1.03,1.03);
 		height: 45px;
 	}
 
+	.comp-sidebar {
+		height: 30px;
+	}
 	.comp-sidebar h1 {
-		font-size: 12px;
+		font-size: 10px;
+		font-weight: 500px;
 	}
 
 	.deploy-link {
