@@ -184,9 +184,9 @@ function About({aboutRef}) {
 			<div className='comp-about' style={{marginTop: '-10px'}}>
 				{pauseSlides
 						?
-					<p style={{backgroundColor: '#F04B1F'}}>{currentTrait.paragraph}</p>
+					<p onClick={handleContinueSlides} style={{backgroundColor: '#F04B1F', cursor: 'pointer'}}>{currentTrait.paragraph}</p>
 						:
-					<p>I am a career-changing educator with passion and talent for using technology to create inspiring educational material and websites to foster engagement and learning. My first priority is a dedication to meet all target goals, and then reaching well beyond with creative flair. Not limited to, but skilled in React, JavaScript, Rails, Ruby, and CSS, and always fascinated to learn other languages and frameworks. I am hard-working, meticulous, and creative, but above all, an empathetic, kind, and collaborative member of my surrounding community.</p>
+					<p onClick={handlePauseSlides} style={{cursor: 'pointer'}}>I am a career-changing educator with passion and talent for using technology to create inspiring educational material and websites to foster engagement and learning. My first priority is a dedication to meet all target goals, and then reaching well beyond with creative flair. Not limited to, but skilled in React, JavaScript, Rails, Ruby, and CSS, and always fascinated to learn other languages and frameworks. I am hard-working, meticulous, and creative, but above all, an empathetic, kind, and collaborative member of my surrounding community.</p>
 				}
 			</div>
 		</div>
