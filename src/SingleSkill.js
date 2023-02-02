@@ -1,3 +1,4 @@
+import { useState } from "react";
 import React from 'react';
 
 function SingleSkill({skill}) {
@@ -19,6 +20,12 @@ function SingleSkill({skill}) {
 	// 	return Math.round(Math.random() * vw) + 50
 	// }
 
+  const [isActive, setActive] = useState("false");
+
+  const toggleSkillClass = () => {
+    setActive(!isActive);
+  };
+
 	const skillStyle = {
 		width: skill.height * 1.5,
 		height: skill.height * 1.5,
@@ -37,8 +44,8 @@ function SingleSkill({skill}) {
 	}
 
 	return (
-		<div>
-			<div className={skillClassName} style={skillStyle}>
+		<div className={isActive ? "skill-spin" : "skill-spin-again"}>
+			<div onClick={toggleSkillClass} className={skillClassName} style={skillStyle}>
 				<img src={skill.skillSVG} alt={skill.skill} style={skillImageStyle} />
 				<h3 style={{width: '100%', textAlign: 'center', display: 'inline'}}>{skill.skill}</h3>
 			</div>

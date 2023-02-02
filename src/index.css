@@ -286,36 +286,48 @@ transform: scale(1.03,1.03);
     transform: rotateZ(0);
   }
   15% {
-    transform: rotateZ(-10deg);
+    transform: rotateZ(-14deg);
   }
   20% {
-    transform: rotateZ(9deg);
+    transform: rotateZ(13deg);
   }
   25% {
-    transform: rotateZ(-8deg);
+    transform: rotateZ(-12deg);
   }
   30% {
-    transform: rotateZ(7deg);
+    transform: rotateZ(11deg);
   }
   35% {
-    transform: rotateZ(-6deg);
+    transform: rotateZ(-10deg);
   }
 	40% {
-    transform: rotateZ(5deg);
+    transform: rotateZ(9deg);
   }
 	45% {
-    transform: rotateZ(-4deg);
+    transform: rotateZ(-8deg);
   }
 	50% {
-    transform: rotateZ(3deg);
+    transform: rotateZ(7deg);
   }
 	55% {
-    transform: rotateZ(-2deg);
+    transform: rotateZ(-6deg);
   }
 	60% {
+    transform: rotateZ(5deg);
+  }
+	65% {
+    transform: rotateZ(-4deg);
+  }
+	70% {
+    transform: rotateZ(3deg);
+  }
+	75% {
+    transform: rotateZ(-2deg);
+  }
+	80% {
     transform: rotateZ(1deg);
   }
-  65%, 100% {
+  85%, 100% {
     transform: rotateZ(0);
   }
 }
@@ -858,6 +870,33 @@ transform: scale(1.03,1.03);
 	background-color: white;
 	border-radius: 20px;
 	margin: 20px;
+}
+
+.skill-spin {
+	animation: spin .8s ease-in-out;
+}
+
+.skill-spin-again {
+	animation: back-spin .8s ease-in-out;
+}
+
+
+@keyframes spin {
+	from {
+			transform:rotate(0deg);
+	}
+	to {
+			transform:rotate(360deg);
+	}
+}
+
+@keyframes back-spin {
+	from {
+			transform:rotate(360deg);
+	}
+	to {
+			transform:rotate(0deg);
+	}
 }
 
 .slide-button {
