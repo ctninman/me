@@ -1,14 +1,17 @@
 import { useState } from "react";
 import React from 'react';
 
-function SingleSkill({skill}) {
+function SingleSkill({skill, skillIndex}) {
+
+	console.log("ind: ", skillIndex)
 
 	// const vw = Math.max((document.documentElement.clientWidth || 0, window.innerWidth || 0) *.8)
 	// const vh = Math.max((document.documentElement.clientHeight || 0, window.innerHeight || 0) *.8)
 
 	const skillAnimationClasses = ['sk1', 'sk2', 'sk3', 'sk4', 'sk5']
 	const randomClassName = skillAnimationClasses[Math.floor(Math.random()* skillAnimationClasses.length)] 
-	const skillClassName = `comp-single-skill ${randomClassName}`
+	// const skillClassName = `comp-single-skill ${randomClassName}`
+	const skillClassName = `comp-single-skill sk${skillIndex}`
 	// const topNumber = randomTop()
 	// const leftNumber = randomLeft()
 

@@ -20,10 +20,11 @@ function Skills({skillRef}) {
 			<div className='comp-skills'>
 				{/* <div> */}
 					{/* <h1></h1> */}
-					{allSkills.map(skill => (
+					{allSkills.map((skill, index) => (
 						<SingleSkill 
 							key={skill.skill}
 							skill={skill}
+							skillIndex={index}
 						/>
 					))}
 				{/* </div> */}

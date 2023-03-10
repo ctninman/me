@@ -331,23 +331,156 @@ transform: scale(1.03,1.03);
     transform: rotateZ(0);
   }
 }
+
+.sk0 {
+	animation: pulse-click-quick 5000ms linear infinite;
+}
 .sk1 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 100ms;
+}
+.sk2 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 200ms;
+}
+.sk3 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 300ms;
+}
+.sk4 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 400ms;
+}
+.sk5 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 500ms;
+}
+.sk6 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 600ms;
+}
+.sk7 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 700ms;
+}
+.sk8 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 800ms;
+}
+.sk9 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 900ms;
+}
+.sk10 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 1000ms;
+}
+.sk11 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 1100ms;
+}
+.sk12 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 1200ms;
+}
+.sk13 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 1300ms;
+}
+.sk14 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 1400ms;
+}
+.sk15 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 1500ms;
+}
+.sk16 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 1600ms;
+}
+.sk17 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 1700ms;
+}
+.sk18 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 1800ms;
+}
+.sk19 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 1900ms;
+}
+.sk20 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 2000ms;
+}
+.sk21 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 2100ms;
+}
+.sk22 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 2200ms;
+}
+.sk23 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 2300ms;
+}
+.sk24 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 2400ms;
+}
+.sk25 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 2500ms;
+}
+.sk26 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 2600ms;
+}
+.sk27 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 2700ms;
+}
+.sk28 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 2800ms;
+}
+.sk29 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 2900ms;
+}
+.sk30 {
+	animation: pulse-click-quick 5000ms linear infinite;
+	animation-delay: 3000ms;
+}
+
+
+
+
+
+
+
+
+
+.sk1:hover {
 	animation: wiggle 3000ms linear infinite;
 }
 
-.sk2 {
+.sk2:hover {
 	animation: wiggle 3250ms linear infinite;
 }
 
-.sk3 {
+.sk3:hover {
 	animation: wiggle 3500ms linear infinite;
 }
 
-.sk4 {
+.sk4:hover {
 	animation: wiggle 2750ms linear infinite;
 }
 
-.sk5 {
+.sk5:hover {
 	animation: wiggle 2500ms linear infinite;
 }
 
@@ -645,6 +778,39 @@ transform: scale(1.03,1.03);
 		box-shadow: rgba(240, 75, 31, 0.4) 3px 3px  
 	}
 	45%, 100% {
+		box-shadow: none;
+	}
+}
+
+@keyframes pulse-click-quick {
+	0% {
+		box-shadow: rgba(240, 75, 31, 0.4) 3px 3px  
+	}
+	2% {
+    box-shadow: rgba(240, 75, 31, 0.4) 3px 3px, rgba(240, 75, 31, 0.3) 6px 6px
+  }
+	4% {
+    box-shadow: rgba(240, 75, 31, 0.4) 3px 3px, rgba(240, 75, 31, 0.3) 6px 6px, rgba(240, 75, 31, 0.2) 9px 9px
+  }
+	6% {
+    box-shadow: rgba(240, 75, 31, 0.4) 3px 3px, rgba(240, 75, 31, 0.3) 6px 6px, rgba(240, 75, 31, 0.2) 9px 9px, rgba(240, 75, 31, 0.1) 12px 12px
+  }
+	8% {
+    box-shadow: rgba(240, 75, 31, 0.4) 3px 3px, rgba(240, 75, 31, 0.3) 6px 6px, rgba(240, 75, 31, 0.2) 9px 9px, rgba(240, 75, 31, 0.1) 12px 12px, rgba(240, 75, 31, 0.05) 15px 15px
+  }
+	10% {
+		box-shadow: rgba(240, 75, 31, 0.4) 3px 3px, rgba(240, 75, 31, 0.3) 6px 6px, rgba(240, 75, 31, 0.2) 9px 9px, rgba(240, 75, 31, 0.1) 12px 12px
+	}
+	12% {
+		box-shadow: rgba(240, 75, 31, 0.4) 3px 3px, rgba(240, 75, 31, 0.3) 6px 6px, rgba(240, 75, 31, 0.2) 9px 9px
+  }
+	14% {
+		box-shadow: rgba(240, 75, 31, 0.4) 3px 3px, rgba(240, 75, 31, 0.3) 6px 6px
+	}
+	16% {
+		box-shadow: rgba(240, 75, 31, 0.4) 3px 3px  
+	}
+	18%, 100% {
 		box-shadow: none;
 	}
 }
