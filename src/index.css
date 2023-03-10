@@ -464,7 +464,7 @@ transform: scale(1.03,1.03);
 
 
 
-.sk1:hover {
+/* .sk1:hover {
 	animation: wiggle 3000ms linear infinite;
 }
 
@@ -482,7 +482,7 @@ transform: scale(1.03,1.03);
 
 .sk5:hover {
 	animation: wiggle 2500ms linear infinite;
-}
+} */
 
 /* .sk1 {
 	offset-path: path('M 0 0 C 0.6667 0.3333 2 1 4 0');
@@ -1084,11 +1084,11 @@ transform: scale(1.03,1.03);
 }
 
 .skill-spin {
-	animation: spin .8s ease-in-out;
+	animation: spin 1s ease-in-out;
 }
 
 .skill-spin-again {
-	animation: back-spin .8s ease-in-out;
+	animation: wiggle 1s ease-in-out;
 }
 
 
